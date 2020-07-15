@@ -126,7 +126,26 @@ footer {
 
 ======================== */
 
+/* Services Section */
 
+.homepage-services-title-widget-title {
+  color: #ffffff;
+}
+
+.services-section {
+  background: #12244f;
+  padding: 3% 5%;
+}
+
+.widget-homepage-services-title {
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+.container-fluid.services-section {
+  margin: 7% 0;
+  text-align: center;
+}
 
 /* ======================
 

@@ -243,6 +243,17 @@
         'after_title'   => '</h3>'
     ));
 
+    // Widget Area: Homepage Services Six
+    register_sidebar(array(
+        'name'          => ('Homepage Services Six'),
+        'id'            => 'homepage-services-six',
+        'description'   => 'Services Six on Homepage',
+        'before_widget' => '<div class="widget-homepage-services-six">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="homepage-services-six-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
     // Widget Area: Homepage Locations Header
     register_sidebar(array(
         'name'          => ('Homepage Locations Title'),
