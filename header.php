@@ -20,7 +20,7 @@
     <!-- Header -->
     <header>
 
-      <div class="container">
+      <div class="container nav">
         <div class="row">
 
           <!-- Header Image/Linked Logo -->
@@ -35,7 +35,7 @@
           <!-- Navigation: Main Menu -->
 
           <div class="col-lg-8 d-flex justify-content-end align-items-center">
-            <nav class="nav">
+            <nav>
               <?php
                 if(has_nav_menu('main-menu')){
                   wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
