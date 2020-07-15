@@ -67,7 +67,11 @@ header img {
 
 header {
   background: #f9f9f9;
-  padding-top: 1%;
+  padding: 1% 0;
+}
+
+nav {
+  padding-top: 3%;
 }
 
 .main-menu-class a {

@@ -24,7 +24,7 @@
         <div class="row">
 
           <!-- Header Image/Linked Logo -->
-          <div class="col-lg-7">
+          <div class="col-lg-4">
             <?php  if(get_header_image() == ''){?>
               <h1><a href="<?php get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
             }else{?>
@@ -32,31 +32,21 @@
             <?php } ?>
           </div>
 
-          <!-- Widget Area: Header Social -->
-          <div class="col-lg-5 d-flex align-items-center">
-            <?php dynamic_sidebar('header-social'); ?>
+          <!-- Navigation: Main Menu -->
+
+          <div class="col-lg-8 d-flex justify-content-end align-items-center">
+            <nav>
+              <?php
+                if(has_nav_menu('main-menu')){
+                  wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
+                }else{
+                  echo "Please select a main menu through the dashboard";
+                }
+              ?>
+            </nav>
           </div>
 
         </div>
       </div>
-
-      <!-- Navigation: Main Menu -->
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-12 d-flex justify-content-around">
-              <nav>
-                <?php
-                  if(has_nav_menu('main-menu')){
-                    wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
-                  }else{
-                    echo "Please select a main menu through the dashboard";
-                  }
-                ?>
-              </nav>
-            </div>
-
-          </div>
-        </div>
 
     </header>
