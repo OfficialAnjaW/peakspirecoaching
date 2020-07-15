@@ -20,7 +20,7 @@
     <!-- Header -->
     <header>
 
-      <div class="container nav">
+      <div class="container sticky-header">
         <div class="row">
 
           <!-- Header Image/Linked Logo -->
