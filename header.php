@@ -35,7 +35,7 @@
           <!-- Navigation: Main Menu -->
 
           <div class="col-lg-8 d-flex justify-content-end align-items-center">
-            <nav>
+            <nav class="nav">
               <?php
                 if(has_nav_menu('main-menu')){
                   wp_nav_menu(array('theme_location' => 'main-menu' , 'container_class' => 'main-menu-class'));
