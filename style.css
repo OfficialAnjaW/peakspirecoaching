@@ -187,14 +187,18 @@ footer {
 
 ======================== */
 
+h2.entry-title {
+    font-family: acumin-pro,sans-serif;
+}
+
 .contact-map-widget-title {
   padding:20px 0px;
-
 }
 
 .widget-contact-form {
-    padding-top: 80px;
+    padding-top: 45px;
 }
+
 
 
 /* ======================
