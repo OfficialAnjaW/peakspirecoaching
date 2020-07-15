@@ -28,13 +28,16 @@ Template Post Type: page
 <!-- begin widget for contact us form------------------->
     <section class="about">
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-12">
+        <div class="col-lg-6">
           <?php dynamic_sidebar('contact-us-form'); ?>
         </div>
-
+<!-- begin widget for contact google map info --------->
+        <div class="col-lg-6 col-sm-12">
+          <?php dynamic_sidebar('contact-us-map'); ?>
+        </div>
       </div>
     </section>
-<!-- end widget for contact us form------------------->
+<!-- end widget area----------------------------------->
 
   </main>
 
