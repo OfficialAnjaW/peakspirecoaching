@@ -11,7 +11,7 @@ Template Post Type: page
   <!--======================= start about us content post=====================------->
     <section>
       <div class="row justify-content-center posts">
-        <div class="col-lg-9 col-md-8 col-sm-12">
+        <div class="col-lg-12">
           <?php
             if(have_posts()) {
               while(have_posts()){
