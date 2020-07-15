@@ -98,8 +98,14 @@ nav {
 ======================== */
 
 footer {
-  background: #12244f;
-  padding-top: 1%;
+  background: #f9f9f9;
+  padding-top: 2%;
+}
+
+.left-footer-widget-title,
+.middle-footer-widget-title,
+.right-footer-widget-title {
+  color: #12244f;
 }
 
 /* ======================
