@@ -276,6 +276,23 @@
         'after_title'   => '</h3>'
     ));
 
+/*===================================
+
+  Widget Areas page-contact.php
+
+=====================================*/
+
+// Widget Area: Contact Form Widget
+    register_sidebar(array(
+        'name'          => ('Contact Form'),
+        'id'            => 'contact-us-form',
+        'description'   => 'Form for Contact Page',
+        'before_widget' => '<div class="widget-contact-form">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="contact-form-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
   }
 
   add_action('widgets_init', 'blank_widgets_init');
