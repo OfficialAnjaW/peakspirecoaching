@@ -66,6 +66,23 @@ Template Post Type: page
         </div>
     </div>
     </section>
+
+    <section>
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('about-img-5'); ?>
+        </div>
+        <div class="col-lg-4">
+          <?php dynamic_sidebar('about-text-5'); ?>
+        </div>
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('about-img-6'); ?>
+        </div>
+        <div class="col-lg-4">
+          <?php dynamic_sidebar('about-text-6'); ?>
+        </div>
+    </div>
+    </section>
 <!-- end widget area----------------------------------->
 
   </main>

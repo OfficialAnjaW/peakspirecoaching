@@ -362,6 +362,26 @@
             ));
 
             register_sidebar(array(
+                'name'          => ('Services Image 5'),
+                'id'            => 'about-img-5',
+                'description'   => 'Widget for About Image 5',
+                'before_widget' => '<div class="widget-about-img5">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-img5">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('Services Image 6'),
+                'id'            => 'about-img-6',
+                'description'   => 'Widget for About Image 6',
+                'before_widget' => '<div class="widget-about-img6">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-img6">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
                 'name'          => ('Services Text 1'),
                 'id'            => 'about-text-1',
                 'description'   => 'Widget for About Text 1',
@@ -401,7 +421,25 @@
                 'after_title'   => '</h3>'
             ));
 
+            register_sidebar(array(
+                'name'          => ('Services Text 5'),
+                'id'            => 'about-text-5',
+                'description'   => 'Widget for About Text 5',
+                'before_widget' => '<div class="widget-about-txt5">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-txt5">',
+                'after_title'   => '</h3>'
+            ));
 
+            register_sidebar(array(
+                'name'          => ('Services Text 6'),
+                'id'            => 'about-text-6',
+                'description'   => 'Widget for About Text 6',
+                'before_widget' => '<div class="widget-about-txt6">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-txt6">',
+                'after_title'   => '</h3>'
+            ));
 
   }
 
