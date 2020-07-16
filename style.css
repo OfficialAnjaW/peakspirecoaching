@@ -199,6 +199,13 @@ footer {
   line-height: 2em;
 }
 
+.widget-company-introuction h6,
+.widget-founder-section h6 {
+  font-family: acumin-pro-wide,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* ======================
 
   Services

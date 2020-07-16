@@ -45,7 +45,7 @@ Template Post Type: page
       </div>
     </div>
 
-    <!-- Widget Area: Homepage Locations Section -->
+    <!-- Widget Area: Founder Section -->
     <div class="container container-founder-section">
       <div class="row">
         <div class="col-md-12">
