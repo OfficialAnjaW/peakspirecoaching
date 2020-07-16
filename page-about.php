@@ -18,15 +18,6 @@ Template Post Type: page
 
   <main>
 
-    <!-- Widget Area: Company Introduction -->
-    <div class="container container-company-introduction">
-      <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('company-introduction'); ?>
-        </div>
-      </div>
-    </div>
-
     <!-- Widget Area: Company Purpose -->
     <div class="container-fluid container-company-purpose">
       <div class="container">
@@ -34,6 +25,15 @@ Template Post Type: page
           <div class="col-md-12">
             <?php dynamic_sidebar('company-purpose'); ?>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Widget Area: Company Introduction -->
+    <div class="container container-company-introduction">
+      <div class="row">
+        <div class="col-md-12">
+          <?php dynamic_sidebar('company-introduction'); ?>
         </div>
       </div>
     </div>

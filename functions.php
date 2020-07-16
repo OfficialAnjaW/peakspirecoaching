@@ -276,17 +276,6 @@
         'after_title'   => '</h1>'
     ));
 
-    // Widget Area: Company Introduction
-    register_sidebar(array(
-        'name'          => ('Company Introduction'),
-        'id'            => 'company-introduction',
-        'description'   => 'Company Introduction Section',
-        'before_widget' => '<div class="widget-company-introuction">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h1 class="company-introuction-widget-title">',
-        'after_title'   => '</h1>'
-    ));
-
     // Widget Area: Company Purpose
     register_sidebar(array(
         'name'          => ('Company Purpose'),
@@ -295,6 +284,17 @@
         'before_widget' => '<div class="widget-company-purpose">',
         'after_widget'  => '</div>',
         'before_title'  => '<h1 class="company-purpose-widget-title">',
+        'after_title'   => '</h1>'
+    ));
+
+    // Widget Area: Company Introduction
+    register_sidebar(array(
+        'name'          => ('Company Introduction'),
+        'id'            => 'company-introduction',
+        'description'   => 'Company Introduction Section',
+        'before_widget' => '<div class="widget-company-introuction">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="company-introuction-widget-title">',
         'after_title'   => '</h1>'
     ));
 
