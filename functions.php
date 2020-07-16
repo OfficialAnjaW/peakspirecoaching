@@ -184,8 +184,8 @@
         'description'   => 'Services Title on Homepage',
         'before_widget' => '<div class="widget-homepage-services-title">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-services-title-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="homepage-services-title-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     // Widget Area: Homepage Services One
