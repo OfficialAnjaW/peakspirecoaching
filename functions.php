@@ -322,7 +322,7 @@
         =====================================*/
         // Widget Area: Services widget grid
             register_sidebar(array(
-                'name'          => ('About Us Image 1'),
+                'name'          => ('Services Image 1'),
                 'id'            => 'about-img-1',
                 'description'   => 'Widget for About Image 1',
                 'before_widget' => '<div class="widget-about-img1">',
@@ -332,7 +332,7 @@
             ));
 
             register_sidebar(array(
-                'name'          => ('About Us Image 2'),
+                'name'          => ('Services Image 2'),
                 'id'            => 'about-img-2',
                 'description'   => 'Widget for About Image 2',
                 'before_widget' => '<div class="widget-about-img2">',
@@ -342,7 +342,7 @@
             ));
 
             register_sidebar(array(
-                'name'          => ('About Us Image 3'),
+                'name'          => ('Services Image 3'),
                 'id'            => 'about-img-3',
                 'description'   => 'Widget for About Image 3',
                 'before_widget' => '<div class="widget-about-img3">',
@@ -352,7 +352,7 @@
             ));
 
             register_sidebar(array(
-                'name'          => ('About Us Image 4'),
+                'name'          => ('Services Image 4'),
                 'id'            => 'about-img-4',
                 'description'   => 'Widget for About Image 4',
                 'before_widget' => '<div class="widget-about-img4">',
@@ -362,7 +362,7 @@
             ));
 
             register_sidebar(array(
-                'name'          => ('About Us Text 1'),
+                'name'          => ('Services Text 1'),
                 'id'            => 'about-text-1',
                 'description'   => 'Widget for About Text 1',
                 'before_widget' => '<div class="widget-about-txt1">',
@@ -372,7 +372,7 @@
             ));
 
             register_sidebar(array(
-                'name'          => ('About Us Text 2'),
+                'name'          => ('Services Text 2'),
                 'id'            => 'about-text-2',
                 'description'   => 'Widget for About Text 2',
                 'before_widget' => '<div class="widget-about-txt2">',
@@ -382,7 +382,7 @@
             ));
 
             register_sidebar(array(
-                'name'          => ('About Us Text 3'),
+                'name'          => ('Services Text 3'),
                 'id'            => 'about-text-3',
                 'description'   => 'Widget for About Text 3',
                 'before_widget' => '<div class="widget-about-txt3">',
@@ -392,7 +392,7 @@
             ));
 
             register_sidebar(array(
-                'name'          => ('About Us Text 4'),
+                'name'          => ('Services Text 4'),
                 'id'            => 'about-text-4',
                 'description'   => 'Widget for About Text 4',
                 'before_widget' => '<div class="widget-about-txt4">',
