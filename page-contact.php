@@ -26,7 +26,7 @@ Template Post Type: page
     </section>
 
 <!-- begin widget for contact us form------------------->
-    <section class="about">
+    <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-6">
           <?php dynamic_sidebar('contact-us-form'); ?>

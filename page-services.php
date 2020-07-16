@@ -6,6 +6,14 @@ Template Post Type: page
 ?>
 
 <?php get_header(); ?>
+
+<!-- Widget Area: Homepage Hero Image -->
+<div class="row">
+  <div class="col-md-12">
+    <?php dynamic_sidebar('homepage-hero-image'); ?>
+  </div>
+</div>
+
   <main class="container">
 
   <!--======================= start about us content post=====================------->
@@ -25,17 +33,37 @@ Template Post Type: page
         </div>
     </section>
 
-<!-- begin widget for contact us form------------------->
-    <section class="about">
+<!-- begin widget for serivces form------------------->
+    <section>
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-6">
-          <?php dynamic_sidebar('contact-us-form'); ?>
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('about-img-1'); ?>
         </div>
-<!-- begin widget for contact google map info --------->
-        <div class="col-lg-6 col-sm-12">
-          <?php dynamic_sidebar('contact-us-map'); ?>
+        <div class="col-lg-4">
+          <?php dynamic_sidebar('about-text-1'); ?>
+        </div>
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('about-img-2'); ?>
+        </div>
+        <div class="col-lg-4">
+          <?php dynamic_sidebar('about-text-2'); ?>
         </div>
       </div>
+    </section>
+    <section>
+      <div class="col-lg-2">
+        <?php dynamic_sidebar('about-img-3'); ?>
+      </div>
+      <div class="col-lg-4">
+        <?php dynamic_sidebar('about-text-3'); ?>
+      </div>
+      <div class="col-lg-2">
+        <?php dynamic_sidebar('about-img-4'); ?>
+      </div>
+      <div class="col-lg-4">
+        <?php dynamic_sidebar('about-text-4'); ?>
+      </div>
+    </div>
     </section>
 <!-- end widget area----------------------------------->
 

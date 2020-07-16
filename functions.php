@@ -315,6 +315,94 @@
             'after_title'   => '</h3>'
         ));
 
+        /*===================================
+
+          Widget Areas page-services.php
+
+        =====================================*/
+        // Widget Area: Services widget grid
+            register_sidebar(array(
+                'name'          => ('About Us Image 1'),
+                'id'            => 'about-img-1',
+                'description'   => 'Widget for About Image 1',
+                'before_widget' => '<div class="widget-about-img1">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-img1">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('About Us Image 2'),
+                'id'            => 'about-img-2',
+                'description'   => 'Widget for About Image 2',
+                'before_widget' => '<div class="widget-about-img2">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-img2">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('About Us Image 3'),
+                'id'            => 'about-img-3',
+                'description'   => 'Widget for About Image 3',
+                'before_widget' => '<div class="widget-about-img3">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-img3">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('About Us Image 4'),
+                'id'            => 'about-img-4',
+                'description'   => 'Widget for About Image 4',
+                'before_widget' => '<div class="widget-about-img4">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-img4">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('About Us Text 1'),
+                'id'            => 'about-text-1',
+                'description'   => 'Widget for About Text 1',
+                'before_widget' => '<div class="widget-about-txt1">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-txt1">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('About Us Text 2'),
+                'id'            => 'about-text-2',
+                'description'   => 'Widget for About Text 2',
+                'before_widget' => '<div class="widget-about-txt2">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-txt2">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('About Us Text 3'),
+                'id'            => 'about-text-3',
+                'description'   => 'Widget for About Text 3',
+                'before_widget' => '<div class="widget-about-txt3">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-txt3">',
+                'after_title'   => '</h3>'
+            ));
+
+            register_sidebar(array(
+                'name'          => ('About Us Text 4'),
+                'id'            => 'about-text-4',
+                'description'   => 'Widget for About Text 4',
+                'before_widget' => '<div class="widget-about-txt4">',
+                'after_widget'  => '</div>',
+                'before_title'  => '<h3 class="widget-about-us-txt4">',
+                'after_title'   => '</h3>'
+            ));
+
+
+
   }
 
   add_action('widgets_init', 'blank_widgets_init');
