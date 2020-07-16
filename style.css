@@ -114,6 +114,12 @@ footer {
 
 /* Icon Labels */
 
+.left-footer-widget-title,
+.middle-footer-widget-title,
+.middle-footer-widget-title {
+  color: #12244f;
+}
+
 .zoom-social_icons-list__label:hover {
     color: #6da69b;
 }
@@ -139,7 +145,7 @@ footer {
 }
 
 .widget-homepage-services-title {
-  padding-bottom: 4%;
+  padding-bottom: 3%;
   color: #ffffff;
 }
 
@@ -153,8 +159,16 @@ footer {
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
-  padding-top: 10%;
+  padding-top: 1%;
+}
 
+.widget-homepage-services-one,
+.widget-homepage-services-two,
+.widget-homepage-services-three,
+.widget-homepage-services-four,
+.widget-homepage-services-five,
+.widget-homepage-services-six {
+  padding: 2% 0;
 }
 
 /* ======================
