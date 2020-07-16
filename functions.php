@@ -272,8 +272,8 @@
         'description'   => 'Hero Image on About Page',
         'before_widget' => '<div class="widget-about-hero-image">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="about-hero-image-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="about-hero-image-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     // Widget Area: Company Introduction
@@ -283,8 +283,8 @@
         'description'   => 'Company Introduction Section',
         'before_widget' => '<div class="widget-company-introuction">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="company-introuction-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="company-introuction-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     // Widget Area: Company Purpose
@@ -294,8 +294,8 @@
         'description'   => 'Company Purpose Section',
         'before_widget' => '<div class="widget-company-purpose">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="company-purpose-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="company-purpose-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     // Widget Area: Founder Image
@@ -305,8 +305,8 @@
         'description'   => 'Founder Image on About Page',
         'before_widget' => '<div class="widget-founder-image">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="founder-image-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="founder-image-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     // Widget Area: Founder Section
@@ -316,8 +316,8 @@
         'description'   => 'Founder Section',
         'before_widget' => '<div class="widget-founder-section">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="founder-section-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="founder-section-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
 /*===================================
