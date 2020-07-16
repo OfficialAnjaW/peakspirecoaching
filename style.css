@@ -108,22 +108,11 @@ nav {
 
 footer {
   background: #f9f9f9;
-  padding-top: 2%;
-}
-
-/* Widget Title Labels */
-
-.left-footer-widget-title,
-.middle-footer-widget-title,
-.right-footer-widget-title {
+  padding: 2% 0;
   color: #12244f;
 }
 
 /* Icon Labels */
-
-.zoom-social_icons-list__label {
-    color: #12244f;
-}
 
 .zoom-social_icons-list__label:hover {
     color: #6da69b;
