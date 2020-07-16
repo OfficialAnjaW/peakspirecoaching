@@ -29,9 +29,11 @@ Template Post Type: page
 
     <!-- Widget Area: Company Purpose -->
     <div class="container-fluid container-company-purpose">
-      <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('company-purpose'); ?>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <?php dynamic_sidebar('company-purpose'); ?>
+          </div>
         </div>
       </div>
     </div>

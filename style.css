@@ -177,7 +177,19 @@ footer {
 
 ======================== */
 
+.container-company-purpose {
+  background: #6da69b;
+  padding: 3% 5%;
+  text-align: center;
+}
 
+.widget-company-purpose h5 {
+  font-family: acumin-pro,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #12244f;
+  line-height: 2em;
+}
 
 /* ======================
 
