@@ -16,7 +16,7 @@ Template Post Type: page
 
   <main class="container">
 
-  <!--======================= start about us content post=====================------->
+  <!--======================= start services post=====================------->
     <section>
       <div class="row justify-content-center posts">
         <div class="col-lg-12">
@@ -37,32 +37,32 @@ Template Post Type: page
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-2">
-          <?php dynamic_sidebar('about-img-1'); ?>
+          <?php dynamic_sidebar('service-img-1'); ?>
         </div>
         <div class="col-lg-4">
-          <?php dynamic_sidebar('about-text-1'); ?>
+          <?php dynamic_sidebar('service-text-1'); ?>
         </div>
         <div class="col-lg-2">
-          <?php dynamic_sidebar('about-img-2'); ?>
+          <?php dynamic_sidebar('service-img-2'); ?>
         </div>
         <div class="col-lg-4">
-          <?php dynamic_sidebar('about-text-2'); ?>
+          <?php dynamic_sidebar('service-text-2'); ?>
         </div>
       </div>
     </section>
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-2">
-          <?php dynamic_sidebar('about-img-3'); ?>
+          <?php dynamic_sidebar('service-img-3'); ?>
         </div>
         <div class="col-lg-4">
-          <?php dynamic_sidebar('about-text-3'); ?>
+          <?php dynamic_sidebar('service-text-3'); ?>
         </div>
         <div class="col-lg-2">
-          <?php dynamic_sidebar('about-img-4'); ?>
+          <?php dynamic_sidebar('service-img-4'); ?>
         </div>
         <div class="col-lg-4">
-          <?php dynamic_sidebar('about-text-4'); ?>
+          <?php dynamic_sidebar('service-text-4'); ?>
         </div>
     </div>
     </section>
@@ -70,16 +70,16 @@ Template Post Type: page
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-2">
-          <?php dynamic_sidebar('about-img-5'); ?>
+          <?php dynamic_sidebar('service-img-5'); ?>
         </div>
         <div class="col-lg-4">
-          <?php dynamic_sidebar('about-text-5'); ?>
+          <?php dynamic_sidebar('service-text-5'); ?>
         </div>
         <div class="col-lg-2">
-          <?php dynamic_sidebar('about-img-6'); ?>
+          <?php dynamic_sidebar('service-img-6'); ?>
         </div>
         <div class="col-lg-4">
-          <?php dynamic_sidebar('about-text-6'); ?>
+          <?php dynamic_sidebar('service-text-6'); ?>
         </div>
     </div>
     </section>

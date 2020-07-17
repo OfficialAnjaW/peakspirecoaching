@@ -213,7 +213,9 @@ footer {
 
 ======================== */
 
-
+img.image.wp-image-120.attachment-full.size-full {
+    max-width: 75%;
+}
 
 /* ======================
 
@@ -234,7 +236,7 @@ h2.entry-title {
 }
 
 .contact-map-widget-title {
-  padding:40px 0px;
+  padding:30px 0px;
 }
 
 .widget-contact-form {

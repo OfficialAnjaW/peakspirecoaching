@@ -357,121 +357,121 @@
     // Widget Area: Services widget grid
     register_sidebar(array(
         'name'          => ('Services Image 1'),
-        'id'            => 'about-img-1',
-        'description'   => 'Widget for About Image 1',
-        'before_widget' => '<div class="widget-about-img1">',
+        'id'            => 'service-img-1',
+        'description'   => 'Widget for service Image 1',
+        'before_widget' => '<div class="widget-service-img1">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-img1">',
+        'before_title'  => '<h3 class="widget-service-us-img1">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Image 2'),
-        'id'            => 'about-img-2',
-        'description'   => 'Widget for About Image 2',
-        'before_widget' => '<div class="widget-about-img2">',
+        'id'            => 'service-img-2',
+        'description'   => 'Widget for service Image 2',
+        'before_widget' => '<div class="widget-service-img2">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-img2">',
+        'before_title'  => '<h3 class="widget-service-us-img2">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Image 3'),
-        'id'            => 'about-img-3',
-        'description'   => 'Widget for About Image 3',
-        'before_widget' => '<div class="widget-about-img3">',
+        'id'            => 'service-img-3',
+        'description'   => 'Widget for service Image 3',
+        'before_widget' => '<div class="widget-service-img3">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-img3">',
+        'before_title'  => '<h3 class="widget-service-us-img3">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Image 4'),
-        'id'            => 'about-img-4',
-        'description'   => 'Widget for About Image 4',
-        'before_widget' => '<div class="widget-about-img4">',
+        'id'            => 'service-img-4',
+        'description'   => 'Widget for service Image 4',
+        'before_widget' => '<div class="widget-service-img4">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-img4">',
+        'before_title'  => '<h3 class="widget-service-us-img4">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Image 5'),
-        'id'            => 'about-img-5',
-        'description'   => 'Widget for About Image 5',
-        'before_widget' => '<div class="widget-about-img5">',
+        'id'            => 'service-img-5',
+        'description'   => 'Widget for service Image 5',
+        'before_widget' => '<div class="widget-service-img5">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-img5">',
+        'before_title'  => '<h3 class="widget-service-us-img5">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Image 6'),
-        'id'            => 'about-img-6',
-        'description'   => 'Widget for About Image 6',
-        'before_widget' => '<div class="widget-about-img6">',
+        'id'            => 'service-img-6',
+        'description'   => 'Widget for service Image 6',
+        'before_widget' => '<div class="widget-service-img6">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-img6">',
+        'before_title'  => '<h3 class="widget-service-us-img6">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Text 1'),
-        'id'            => 'about-text-1',
-        'description'   => 'Widget for About Text 1',
-        'before_widget' => '<div class="widget-about-txt1">',
+        'id'            => 'service-text-1',
+        'description'   => 'Widget for service Text 1',
+        'before_widget' => '<div class="widget-service-txt1">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-txt1">',
+        'before_title'  => '<h3 class="widget-service-us-txt1">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Text 2'),
-        'id'            => 'about-text-2',
-        'description'   => 'Widget for About Text 2',
-        'before_widget' => '<div class="widget-about-txt2">',
+        'id'            => 'service-text-2',
+        'description'   => 'Widget for service Text 2',
+        'before_widget' => '<div class="widget-service-txt2">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-txt2">',
+        'before_title'  => '<h3 class="widget-service-us-txt2">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Text 3'),
-        'id'            => 'about-text-3',
-        'description'   => 'Widget for About Text 3',
-        'before_widget' => '<div class="widget-about-txt3">',
+        'id'            => 'service-text-3',
+        'description'   => 'Widget for service Text 3',
+        'before_widget' => '<div class="widget-service-txt3">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-txt3">',
+        'before_title'  => '<h3 class="widget-service-us-txt3">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Text 4'),
-        'id'            => 'about-text-4',
-        'description'   => 'Widget for About Text 4',
-        'before_widget' => '<div class="widget-about-txt4">',
+        'id'            => 'service-text-4',
+        'description'   => 'Widget for service Text 4',
+        'before_widget' => '<div class="widget-service-txt4">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-txt4">',
+        'before_title'  => '<h3 class="widget-service-us-txt4">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Text 5'),
-        'id'            => 'about-text-5',
-        'description'   => 'Widget for About Text 5',
-        'before_widget' => '<div class="widget-about-txt5">',
+        'id'            => 'service-text-5',
+        'description'   => 'Widget for service Text 5',
+        'before_widget' => '<div class="widget-service-txt5">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-txt5">',
+        'before_title'  => '<h3 class="widget-service-us-txt5">',
         'after_title'   => '</h3>'
     ));
 
     register_sidebar(array(
         'name'          => ('Services Text 6'),
-        'id'            => 'about-text-6',
-        'description'   => 'Widget for About Text 6',
-        'before_widget' => '<div class="widget-about-txt6">',
+        'id'            => 'service-text-6',
+        'description'   => 'Widget for service Text 6',
+        'before_widget' => '<div class="widget-service-txt6">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-about-us-txt6">',
+        'before_title'  => '<h3 class="widget-service-us-txt6">',
         'after_title'   => '</h3>'
     ));
   }
