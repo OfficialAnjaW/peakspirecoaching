@@ -24,7 +24,7 @@ Template Post Type: page
             if(have_posts()) {
               while(have_posts()){
                 the_post(); ?>
-                <h2 class="entry-title"><?php the_title(); ?></h2>
+                <h2 class="entry-title2"><?php the_title(); ?></h2>
 
                 <?php the_content(); ?>
             <?php  } //this ends while loop

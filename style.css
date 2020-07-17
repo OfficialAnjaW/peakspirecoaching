@@ -213,6 +213,11 @@ footer {
 
 ======================== */
 
+h2.entry-title2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 .widget-service-img1 {
     max-width: 80%;
 }
@@ -274,6 +279,7 @@ footer {
 h2.entry-title {
     font-family: acumin-pro,sans-serif;
 }
+
 
 .contact-map-widget-title {
   padding:30px 0px;
