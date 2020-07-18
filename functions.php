@@ -145,19 +145,8 @@
         'description'   => 'Homepage Intro Copy',
         'before_widget' => '<div class="widget-homepage-intro-copy">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-intro-copy-widget-title">',
-        'after_title'   => '</h3>'
-    ));
-
-    // Widget Area: Homepage Intro Stats
-    register_sidebar(array(
-        'name'          => ('Homepage Intro Stats'),
-        'id'            => 'homepage-intro-stats',
-        'description'   => 'Homepage Intro Stats',
-        'before_widget' => '<div class="widget-homepage-intro-stats">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-intro-stats-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h6 class="homepage-intro-copy-widget-title">',
+        'after_title'   => '</h6>'
     ));
 
     // Widget Area: Homepage Services Header
