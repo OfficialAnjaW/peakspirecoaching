@@ -361,8 +361,8 @@
         'description'   => 'Hero Image on Testimonials',
         'before_widget' => '<div class="widget-testimonials-hero-image">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="testimonials-hero-image-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="testimonials-hero-image-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     register_sidebar(array(
@@ -371,9 +371,50 @@
         'description'   => 'Testimonial Widget Slider Area',
         'before_widget' => '<div class="widget-testimonials-slider">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="testimonials-widget-area-slider">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="testimonials-widget-area-slider">',
+        'after_title'   => '</h1>'
     ));
+
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Widget'),
+        'id'            => 'testimonials-logo-title',
+        'description'   => 'Testimonial Widget Logo Title Area',
+        'before_widget' => '<div class="widget-testimonials-logo-title">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-title">',
+        'after_title'   => '</h1>'
+    ));
+
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Img1'),
+        'id'            => 'testimonials-logo-img1',
+        'description'   => 'Testimonial Widget Logo Img1',
+        'before_widget' => '<div class="widget-testimonials-logo-img1">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-img1">',
+        'after_title'   => '</h1>'
+    ));
+
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Img2'),
+        'id'            => 'testimonials-logo-img2',
+        'description'   => 'Testimonial Widget Logo Img2',
+        'before_widget' => '<div class="widget-testimonials-logo-img2">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-img2">',
+        'after_title'   => '</h1>'
+    ));
+
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Img3'),
+        'id'            => 'testimonials-logo-img3',
+        'description'   => 'Testimonial Widget Logo Img3',
+        'before_widget' => '<div class="widget-testimonials-logo-img3">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-img3">',
+        'after_title'   => '</h1>'
+    ));
+
 
 
   /*===================================
@@ -389,8 +430,8 @@
             'description'   => 'Hero Image on Services',
             'before_widget' => '<div class="widget-services-hero-image">',
             'after_widget'  => '</div>',
-            'before_title'  => '<h3 class="services-hero-image-widget-title">',
-            'after_title'   => '</h3>'
+            'before_title'  => '<h1 class="services-hero-image-widget-title">',
+            'after_title'   => '</h1>'
         ));
 
 
