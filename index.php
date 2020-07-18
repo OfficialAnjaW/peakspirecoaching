@@ -19,29 +19,31 @@ Template Post Type: page
   <main>
 
     <!-- Homepage Intro Section -->
-    <div class="container intro-section">
+    <div class="container-fluid intro-section">
+      <div class="container">
 
-      <!-- Widget Area: Homepage Intro Title -->
-      <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-intro-title'); ?>
+        <!-- Widget Area: Homepage Intro Title -->
+        <div class="row">
+          <div class="col-md-10">
+            <?php dynamic_sidebar('homepage-intro-title'); ?>
+          </div>
         </div>
-      </div>
 
-      <!-- Widget Area: Homepage Intro Copy -->
-      <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-intro-copy'); ?>
+        <!-- Widget Area: Homepage Intro Copy -->
+        <div class="row">
+          <div class="col-md-12">
+            <?php dynamic_sidebar('homepage-intro-copy'); ?>
+          </div>
         </div>
-      </div>
 
-      <!-- Widget Area: Homepage Intro Stats -->
-      <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-intro-statistics'); ?>
+        <!-- Widget Area: Homepage Intro Stats -->
+        <div class="row">
+          <div class="col-md-12">
+            <?php dynamic_sidebar('homepage-intro-statistics'); ?>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
 
     <!-- Homepage Services Section -->

@@ -172,6 +172,11 @@ footer {
   color: #ffdc6c;
 }
 
+.intro-section {
+  background: #f9f9f9;
+  padding-top: 5%;
+}
+
 /* Services Section */
 
 .homepage-services-title-widget-title {
