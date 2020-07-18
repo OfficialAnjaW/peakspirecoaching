@@ -7,10 +7,10 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
-<!-- Widget Area: Homepage Hero Image -->
+<!-- Widget Area: Homepage Hero Image ------->
 <div class="row">
   <div class="col-md-12">
-    <?php dynamic_sidebar('homepage-hero-image'); ?>
+    <?php dynamic_sidebar('services-hero-image'); ?>
   </div>
 </div>
 

@@ -348,11 +348,42 @@
         'after_title'   => '</h3>'
     ));
 
-/*===================================
+    /*===================================
 
-  Widget Areas page-services.php
+      Widget Areas page-testimonials.php
 
-=====================================*/
+    =====================================*/
+
+
+    // Widget Area: Testimonials Hero Image
+    register_sidebar(array(
+        'name'          => ('Testimonials Hero Image'),
+        'id'            => 'testimonials-hero-image',
+        'description'   => 'Hero Image on Testimonials',
+        'before_widget' => '<div class="widget-testimonials-hero-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="testimonials-hero-image-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
+
+  /*===================================
+
+    Widget Areas page-services.php
+
+  =====================================*/
+
+    // Widget Area: Services Hero Image
+        register_sidebar(array(
+            'name'          => ('Services Hero Image'),
+            'id'            => 'services-hero-image',
+            'description'   => 'Hero Image on Services',
+            'before_widget' => '<div class="widget-services-hero-image">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="services-hero-image-widget-title">',
+            'after_title'   => '</h3>'
+        ));
+
 
     // Widget Area: Services widget grid
     register_sidebar(array(
