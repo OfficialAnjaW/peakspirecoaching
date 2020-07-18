@@ -33,14 +33,7 @@ Template Post Type: page
         </div>
     </section>
 
-<!-- begin widget for serivces form------------------->
-    <section>
-      <div class="row d-flex justify-content-between">
-        <div class="col-lg-12">
-          <?php dynamic_sidebar('testimonials-slider-widget'); ?>
-        </div>
-      </div>
-    </section>
+
 
 <!-- end widget area----------------------------------->
 
