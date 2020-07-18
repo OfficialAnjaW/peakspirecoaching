@@ -255,18 +255,13 @@ footer {
   padding-top: 1%;
 }
 
-.widget-founder-section strong {
-  color: #fca275;
-}
-
 /* ======================
 
   Services
 
 ======================== */
 
-h2.entry-title2 {
-  font-family: acumin-pro,sans-serif;
+h1.entry-title2 {
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -321,26 +316,24 @@ h2.entry-title2 {
 
 ======================== */
 
+.entry-title-testimonial {
+  padding:20px 0px;
+}
+
 h1.testimonials-widget-area-logo-title {
-  font-family: acumin-pro,sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
   font-size: 20px;
 }
 
 .clientsimg {
-  padding: 20px 10px;
+  padding: 50px 10px;
 }
 /* ======================
 
   Contact Us
 
 ======================== */
-
-h2.entry-title {
-  font-family: acumin-pro,sans-serif;
-}
-
 
 .contact-map-widget-title {
   padding:30px 0px;
