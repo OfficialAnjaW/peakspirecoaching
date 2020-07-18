@@ -247,16 +247,20 @@ footer {
   padding: 7% 0;
 }
 
+.widget-company-purpose h5 {
+  font-family: acumin-pro,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #12244f;
+  line-height: 2em;
+}
+
 .widget-company-introuction h6,
 .widget-founder-section h6 {
   font-family: acumin-pro-wide,sans-serif;
   font-weight: 600;
   font-style: normal;
   padding-top: 1%;
-}
-
-.widget-founder-section strong {
-  color: #fca275;
 }
 
 /* ======================
@@ -329,7 +333,7 @@ h1.testimonials-widget-area-logo-title {
 }
 
 .clientsimg {
-  padding: 20px 10px;
+  padding: 50px 10px;
 }
 /* ======================
 
