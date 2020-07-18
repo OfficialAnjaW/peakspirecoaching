@@ -127,25 +127,36 @@
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Homepage Truck Types
+    // Widget Area: Manifesto Title
     register_sidebar(array(
-        'name'          => ('Homepage Truck Types'),
-        'id'            => 'homepage-truck-types',
-        'description'   => 'Truck Types Section on Homepage',
-        'before_widget' => '<div class="widget-homepage-truck-types">',
+        'name'          => ('Manifesto Title'),
+        'id'            => 'manifesto-title',
+        'description'   => 'Manifesto Title on Homepage',
+        'before_widget' => '<div class="widget-manifesto-title">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-truck-types-widget-title">',
+        'before_title'  => '<h1 class="manifesto-title-widget-title">',
+        'after_title'   => '</h1>'
+    ));
+
+    // Widget Area: Manifesto Column One
+    register_sidebar(array(
+        'name'          => ('Manifesto Column One'),
+        'id'            => 'manifesto-column-one',
+        'description'   => 'Manifesto Column One on Homepage',
+        'before_widget' => '<div class="widget-manifesto-column-one">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="manifesto-column-one-widget-title">',
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Homepage Middle Image
+    // Widget Area: Manifesto Column Two
     register_sidebar(array(
-        'name'          => ('Homepage Middle Image'),
-        'id'            => 'homepage-middle-image',
-        'description'   => 'Middle Image on Homepage',
-        'before_widget' => '<div class="widget-homepage-middle-image">',
+        'name'          => ('Manifesto Column Two'),
+        'id'            => 'manifesto-column-two',
+        'description'   => 'Manifesto Column Two on Homepage',
+        'before_widget' => '<div class="widget-manifesto-column-two">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-middle-image-widget-title">',
+        'before_title'  => '<h3 class="manifesto-column-two-widget-title">',
         'after_title'   => '</h3>'
     ));
 
@@ -226,36 +237,25 @@
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Homepage Locations Header
+    // Widget Area: Homepage Intro Title
     register_sidebar(array(
-        'name'          => ('Homepage Locations Title'),
-        'id'            => 'homepage-locations-title',
-        'description'   => 'Locations Title on Homepage',
-        'before_widget' => '<div class="widget-homepage-locations-title">',
+        'name'          => ('Homepage Intro Title'),
+        'id'            => 'homepage-intro-title',
+        'description'   => 'Homepage Intro Title',
+        'before_widget' => '<div class="widget-homepage-intro-title">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-locations-title-widget-title">',
+        'before_title'  => '<h3 class="homepage-intro-title-widget-title">',
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Homepage Locations One
+    // Widget Area: Homepage Intro Copy
     register_sidebar(array(
-        'name'          => ('Homepage Locations One'),
-        'id'            => 'homepage-locations-one',
-        'description'   => 'Locations One on Homepage',
-        'before_widget' => '<div class="widget-homepage-locations-one">',
+        'name'          => ('Homepage Intro Copy'),
+        'id'            => 'homepage-intro-copy',
+        'description'   => 'Homepage Intro Copy',
+        'before_widget' => '<div class="widget-homepage-intro-copy">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-locations-one-widget-title">',
-        'after_title'   => '</h3>'
-    ));
-
-    // Widget Area: Homepage Locations Two
-    register_sidebar(array(
-        'name'          => ('Homepage Locations Two'),
-        'id'            => 'homepage-locations-two',
-        'description'   => 'Locations Two on Homepage',
-        'before_widget' => '<div class="widget-homepage-locations-two">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-locations-two-widget-title">',
+        'before_title'  => '<h3 class="homepage-intro-copy-widget-title">',
         'after_title'   => '</h3>'
     ));
 

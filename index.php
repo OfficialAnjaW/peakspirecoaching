@@ -18,23 +18,33 @@ Template Post Type: page
 
   <main>
 
-    <!-- Widget Area: Homepage Truck Types -->
-    <div class="container-fluid container-truck-types">
+    <!-- Homepage Manifesto Section -->
+    <div class="container manifesto-section">
+
       <div class="row">
+        <!-- Widget Area: Manifesto Title -->
         <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-truck-types'); ?>
+          <?php dynamic_sidebar('manifesto-title'); ?>
         </div>
       </div>
-    </div>
 
-    <!-- Widget Area: Homepage Middle Image -->
-    <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('homepage-middle-image'); ?>
+      <div class="row">
+
+        <!-- Widget Area: Manifesto Column One -->
+        <div class="col-md-6">
+          <?php dynamic_sidebar('manifesto-column-one'); ?>
+        </div>
+
+        <!-- Widget Area: Manifesto Column Two -->
+        <div class="col-md-6">
+          <?php dynamic_sidebar('manifesto-column-two'); ?>
+        </div>
+
       </div>
+
     </div>
 
-    <!-- Widget Area: Homepage Services Section -->
+    <!-- Homepage Services Section -->
     <div class="container-fluid services-section">
 
       <div class="row">
@@ -79,29 +89,23 @@ Template Post Type: page
       </div>
     </div>
 
-    <!-- Widget Area: Homepage Locations Section -->
-    <div class="container locations-section">
+    <!-- Homepage Intro Section -->
+    <div class="container intro-section">
 
       <div class="row">
-        <!-- Widget Area: Homepage Locations Title -->
+        <!-- Widget Area: Homepage Intro Title -->
         <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-locations-title'); ?>
+          <?php dynamic_sidebar('homepage-intro-title'); ?>
         </div>
       </div>
 
       <div class="row">
-
-        <!-- Widget Area: Homepage Locations One -->
-        <div class="col-md-6">
-          <?php dynamic_sidebar('homepage-locations-one'); ?>
+        <!-- Widget Area: Homepage Intro Copy -->
+        <div class="col-md-12">
+          <?php dynamic_sidebar('homepage-intro-copy'); ?>
         </div>
-
-        <!-- Widget Area: Homepage Locations Two -->
-        <div class="col-md-6">
-          <?php dynamic_sidebar('homepage-locations-two'); ?>
-        </div>
-
       </div>
+
     </div>
 
   </main>
