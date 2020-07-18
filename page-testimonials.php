@@ -57,13 +57,9 @@ Template Post Type: page
                 <div class="col-lg-4">
                   <?php dynamic_sidebar('testimonials-logo-img1'); ?>
                 </div>
-              </div>
-              <div class="row d-flex justify-content-between">
                 <div class="col-lg-4">
                   <?php dynamic_sidebar('testimonials-logo-img2'); ?>
                 </div>
-              </div>
-              <div class="row d-flex justify-content-between">
                 <div class="col-lg-4">
                   <?php dynamic_sidebar('testimonials-logo-img3'); ?>
                 </div>
