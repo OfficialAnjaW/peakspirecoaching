@@ -31,7 +31,7 @@ Template Post Type: page
       <!-- Widget Area: Manifesto Copy -->
       <div class="row">
         <div class="col-md-12">
-          <?php dynamic_sidebar('manifesto-column-one'); ?>
+          <?php dynamic_sidebar('manifesto-copy'); ?>
         </div>
       </div>
 
