@@ -149,6 +149,17 @@
         'after_title'   => '</h6>'
     ));
 
+    // Widget Area: Homepage Intro Statistics
+    register_sidebar(array(
+        'name'          => ('Homepage Intro Statistics'),
+        'id'            => 'homepage-intro-statistics',
+        'description'   => 'Homepage Intro Statistics',
+        'before_widget' => '<div class="widget-homepage-intro-statistics">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h6 class="homepage-intro-statistics-widget-title">',
+        'after_title'   => '</h6>'
+    ));
+
     // Widget Area: Homepage Services Header
     register_sidebar(array(
         'name'          => ('Homepage Services Title'),

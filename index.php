@@ -36,7 +36,7 @@ Template Post Type: page
 
         <!-- Widget Area: Homepage Intro Stats -->
         <div class="col-md-6">
-          <?php dynamic_sidebar('homepage-intro-stats'); ?>
+          <?php dynamic_sidebar('homepage-intro-statistics'); ?>
         </div>
       </div>
 
