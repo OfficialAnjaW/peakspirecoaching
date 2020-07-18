@@ -24,7 +24,7 @@ Template Post Type: page
 
         <!-- Widget Area: Homepage Intro Title -->
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-12">
             <?php dynamic_sidebar('homepage-intro-title'); ?>
           </div>
         </div>
@@ -38,7 +38,7 @@ Template Post Type: page
 
         <!-- Widget Area: Homepage Intro Stats -->
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-10">
             <?php dynamic_sidebar('homepage-intro-statistics'); ?>
           </div>
         </div>
@@ -94,7 +94,7 @@ Template Post Type: page
     <!-- Widget Area: Homepage Manifesto Section-->
     <div class="container manifesto-section">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-10">
           <?php dynamic_sidebar('homepage-manifesto'); ?>
         </div>
       </div>
