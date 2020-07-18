@@ -76,6 +76,20 @@ header img {
   object-fit: contain;
 }
 
+/* Hero Image */
+
+div#n2-ss-4 .n2-font-253d96c1a68c6e270f9aadaf8f86845b-hover {
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+div#n2-ss-4 .n2-font-37213fe73f82b18706d4317a894623bc-hover {
+  font-family: acumin-pro-wide,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* Navigation Menu */
 
 header {
