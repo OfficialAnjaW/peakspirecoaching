@@ -168,6 +168,10 @@ footer {
   padding-top: 1%;
 }
 
+.widget-homepage-intro-statistics strong {
+  color: #ffdc6c;
+}
+
 /* Services Section */
 
 .homepage-services-title-widget-title {
