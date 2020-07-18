@@ -59,7 +59,7 @@ h6 {
 }
 
 a.btn.btn-primary.btn-md {
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 
@@ -219,12 +219,17 @@ footer {
   text-align: center;
 }
 
-.services-section p {
+.services-section a {
   font-family: acumin-pro-wide,sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
   padding-top: 1%;
+}
+
+.services-section a:hover {
+  color: #ffdc6c;
+  text-decoration: none;
 }
 
 .widget-homepage-services-one,
