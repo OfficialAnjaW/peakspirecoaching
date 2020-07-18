@@ -385,6 +385,36 @@
         'after_title'   => '</h1>'
     ));
 
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Img1'),
+        'id'            => 'testimonials-logo-img1',
+        'description'   => 'Testimonial Widget Logo Img1',
+        'before_widget' => '<div class="widget-testimonials-logo-img1">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-img1">',
+        'after_title'   => '</h1>'
+    ));
+
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Img2'),
+        'id'            => 'testimonials-logo-img2',
+        'description'   => 'Testimonial Widget Logo Img2',
+        'before_widget' => '<div class="widget-testimonials-logo-img2">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-img2">',
+        'after_title'   => '</h1>'
+    ));
+
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Img3'),
+        'id'            => 'testimonials-logo-img3',
+        'description'   => 'Testimonial Widget Logo Img3',
+        'before_widget' => '<div class="widget-testimonials-logo-img3">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-img3">',
+        'after_title'   => '</h1>'
+    ));
+
 
 
   /*===================================

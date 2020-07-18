@@ -33,7 +33,7 @@ Template Post Type: page
         </div>
     </section>
 
-    <!-- begin widget for testimonial slider widget ------------------->
+    <!-- begin widget for testimonial slider widget -------------------------------->
         <section>
           <div class="row d-flex justify-content-between">
             <div class="col-lg-12">
@@ -43,7 +43,7 @@ Template Post Type: page
         </section>
 
 
-        <!-- begin widget for testimonial logos ------------------->
+    <!-- begin widgets for testimonial logo title and image area --------------------->
             <section>
               <div class="row d-flex justify-content-between">
                 <div class="col-lg-12">
@@ -54,8 +54,18 @@ Template Post Type: page
 
             <section>
               <div class="row d-flex justify-content-between">
-                <div class="col-lg-12">
-                  <?php dynamic_sidebar('testimonials-slider-widget'); ?>
+                <div class="col-lg-4">
+                  <?php dynamic_sidebar('testimonials-logo-img1'); ?>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-between">
+                <div class="col-lg-4">
+                  <?php dynamic_sidebar('testimonials-logo-img2'); ?>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-between">
+                <div class="col-lg-4">
+                  <?php dynamic_sidebar('testimonials-logo-img3'); ?>
                 </div>
               </div>
             </section>
