@@ -366,6 +366,15 @@
         'after_title'   => '</h3>'
     ));
 
+    register_sidebar(array(
+        'name'          => ('Testimonials Slider Widget'),
+        'id'            => 'testimonials-slider-widget',
+        'description'   => 'Testimonial Widget Slider Area',
+        'before_widget' => '<div class="widget-testimonials-slider">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="testimonials-widget-area-slider">',
+        'after_title'   => '</h3>'
+    ));
 
   /*===================================
 
