@@ -104,7 +104,7 @@ Template Post Type: page
   </main>
 
   <!-- Widget Area: Homepage Banner Image -->
-  <section class="container-fluid manifesto-banner-image">
+  <section class="manifesto-banner-image">
     <div class="row">
       <div class="col-md-12">
         <?php dynamic_sidebar('homepage-banner-image'); ?>
