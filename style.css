@@ -174,7 +174,7 @@ footer {
 
 .intro-section {
   background: #f9f9f9;
-  padding-top: 5%;
+  padding: 6% 0;
 }
 
 /* Services Section */
@@ -197,7 +197,7 @@ footer {
 }
 
 .container-fluid.services-section {
-  margin: 7% 0;
+  margin-bottom: 7%;
   text-align: center;
 }
 

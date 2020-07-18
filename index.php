@@ -24,7 +24,7 @@ Template Post Type: page
 
         <!-- Widget Area: Homepage Intro Title -->
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-8">
             <?php dynamic_sidebar('homepage-intro-title'); ?>
           </div>
         </div>
