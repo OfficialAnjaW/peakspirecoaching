@@ -58,6 +58,10 @@ h6 {
   background: #6da69b;
 }
 
+a.btn.btn-primary.btn-md {
+  margin-top: 1%;
+}
+
 
 /* ======================
 
@@ -235,7 +239,7 @@ footer {
 
 .container-company-purpose {
   background: #f9f9f9;
-  padding: 5% 0 3% 0;
+  padding: 3% 0;
 }
 
 .widget-company-introuction {
@@ -253,6 +257,10 @@ footer {
   font-weight: 600;
   font-style: normal;
   padding-top: 1%;
+}
+
+.widget-company-purpose strong {
+  color: #fca275;
 }
 
 /* ======================

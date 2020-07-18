@@ -320,6 +320,17 @@
         'after_title'   => '</h1>'
     ));
 
+    // Widget Area: About Banner Image
+    register_sidebar(array(
+        'name'          => ('About Banner Image'),
+        'id'            => 'about-banner-image',
+        'description'   => 'Banner Image on About Page',
+        'before_widget' => '<div class="widget-about-banner-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="about-banner-image-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
 /*===================================
 
   Widget Areas page-contact.php

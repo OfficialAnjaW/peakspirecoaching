@@ -48,12 +48,21 @@ Template Post Type: page
     <!-- Widget Area: Founder Section -->
     <div class="container container-founder-section">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-10">
           <?php dynamic_sidebar('founder-section'); ?>
         </div>
       </div>
     </div>
 
   </main>
+
+  <!-- Widget Area: About Banner Image -->
+  <section class="about-page-banner-image">
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('about-banner-image'); ?>
+      </div>
+    </div>
+  </section>
 
 <?php get_footer(); ?>
