@@ -361,8 +361,8 @@
         'description'   => 'Hero Image on Testimonials',
         'before_widget' => '<div class="widget-testimonials-hero-image">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="testimonials-hero-image-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="testimonials-hero-image-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     register_sidebar(array(
@@ -371,8 +371,8 @@
         'description'   => 'Testimonial Widget Slider Area',
         'before_widget' => '<div class="widget-testimonials-slider">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="testimonials-widget-area-slider">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="testimonials-widget-area-slider">',
+        'after_title'   => '</h1>'
     ));
 
 
@@ -389,8 +389,8 @@
             'description'   => 'Hero Image on Services',
             'before_widget' => '<div class="widget-services-hero-image">',
             'after_widget'  => '</div>',
-            'before_title'  => '<h3 class="services-hero-image-widget-title">',
-            'after_title'   => '</h3>'
+            'before_title'  => '<h1 class="services-hero-image-widget-title">',
+            'after_title'   => '</h1>'
         ));
 
 
