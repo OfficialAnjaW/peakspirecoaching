@@ -292,6 +292,9 @@ h1.entry-title2 {
   padding: 50px 0px;
 }
 
+.col-lg-2 services {
+  text-align: center;
+}
 .widget-service-img1 {
   max-width: 80%;
 }

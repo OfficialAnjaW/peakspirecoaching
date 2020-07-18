@@ -36,13 +36,13 @@ Template Post Type: page
 <!-- begin widget for serivces form------------------->
     <section>
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-2">
+        <div class="col-lg-2 services">
           <?php dynamic_sidebar('service-img-1'); ?>
         </div>
         <div class="col-lg-4">
           <?php dynamic_sidebar('service-text-1'); ?>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 services">
           <?php dynamic_sidebar('service-img-2'); ?>
         </div>
         <div class="col-lg-4">
@@ -52,13 +52,13 @@ Template Post Type: page
     </section>
     <section>
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-2">
+        <div class="col-lg-2 services">
           <?php dynamic_sidebar('service-img-3'); ?>
         </div>
         <div class="col-lg-4">
           <?php dynamic_sidebar('service-text-3'); ?>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 services">
           <?php dynamic_sidebar('service-img-4'); ?>
         </div>
         <div class="col-lg-4">
@@ -69,13 +69,13 @@ Template Post Type: page
 
     <section>
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-2">
+        <div class="col-lg-2 services">
           <?php dynamic_sidebar('service-img-5'); ?>
         </div>
         <div class="col-lg-4">
           <?php dynamic_sidebar('service-text-5'); ?>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 services">
           <?php dynamic_sidebar('service-img-6'); ?>
         </div>
         <div class="col-lg-4">
