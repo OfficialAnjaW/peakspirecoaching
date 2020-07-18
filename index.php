@@ -28,14 +28,16 @@ Template Post Type: page
         </div>
       </div>
 
+      <!-- Widget Area: Homepage Intro Copy -->
       <div class="row">
-        <!-- Widget Area: Homepage Intro Copy -->
-        <div class="col-md-6">
+        <div class="col-md-12">
           <?php dynamic_sidebar('homepage-intro-copy'); ?>
         </div>
+      </div>
 
-        <!-- Widget Area: Homepage Intro Stats -->
-        <div class="col-md-6">
+      <!-- Widget Area: Homepage Intro Stats -->
+      <div class="row">
+        <div class="col-md-12">
           <?php dynamic_sidebar('homepage-intro-statistics'); ?>
         </div>
       </div>
