@@ -235,18 +235,18 @@ footer {
 
 .container-company-purpose {
   background: #f9f9f9;
-  padding: 3% 5%;
-  text-align: center;
+  padding: 5% 0;
 }
 
 .widget-company-introuction {
-  padding: 7% 0 5% 0;
+  padding: 7% 0;
 }
 
 .widget-founder-section {
   padding: 7% 0;
 }
 
+.widget-company-purpose h6,
 .widget-company-introuction h6,
 .widget-founder-section h6 {
   font-family: acumin-pro-wide,sans-serif;
