@@ -359,11 +359,11 @@
         'after_title'   => '</h3>'
     ));
 
-    /*===================================
+/*===================================
 
-      Widget Areas page-testimonials.php
+  Widget Areas page-testimonials.php
 
-    =====================================*/
+=====================================*/
 
     // Widget Area: Testimonials Hero Image
     register_sidebar(array(
@@ -438,11 +438,11 @@
 
 
 
-  /*===================================
+/*===================================
 
-    Widget Areas page-services.php
+  Widget Areas page-services.php
 
-  =====================================*/
+=====================================*/
 
     // Widget Area: Services Hero Image
         register_sidebar(array(
@@ -576,6 +576,24 @@
         'before_title'  => '<h3 class="widget-service-us-txt6">',
         'after_title'   => '</h3>'
     ));
+
+/*===================================
+
+  Widget Areas 404.php
+
+=====================================*/
+
+    // Widget Area: 404.php Banner
+    register_sidebar(array(
+        'name'          => ('Error Banner'),
+        'id'            => 'error-banner',
+        'description'   => 'Error Banner on 404 Page',
+        'before_widget' => '<div class="widget-error-banner">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="error-banner-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
   }
 
   add_action('widgets_init', 'blank_widgets_init');

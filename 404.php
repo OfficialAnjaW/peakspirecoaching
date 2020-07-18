@@ -18,4 +18,13 @@
 
   </div>
 
+  <!-- Widget Area: 404.php Banner -->
+  <section class="error-banner-section">
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('error-banner'); ?>
+      </div>
+    </div>
+  </section>
+
 <?php get_footer(); ?>
