@@ -318,6 +318,13 @@ h2.entry-title {
 
 ======================== */
 
+.error {
+  margin-top: 2%;
+}
+
+.error-container {
+  padding: 5% 0 10% 0;
+}
 
 
 /* ======================
