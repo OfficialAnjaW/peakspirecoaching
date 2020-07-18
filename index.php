@@ -18,20 +18,25 @@ Template Post Type: page
 
   <main>
 
-    <!-- Homepage Manifesto Section -->
-    <div class="container manifesto-section">
+    <!-- Homepage Intro Section -->
+    <div class="container intro-section">
 
-      <!-- Widget Area: Manifesto Title -->
+      <!-- Widget Area: Homepage Intro Title -->
       <div class="row">
         <div class="col-md-12">
-          <?php dynamic_sidebar('manifesto-title'); ?>
+          <?php dynamic_sidebar('homepage-intro-title'); ?>
         </div>
       </div>
 
-      <!-- Widget Area: Manifesto Copy -->
       <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('manifesto-copy'); ?>
+        <!-- Widget Area: Homepage Intro Copy -->
+        <div class="col-md-6">
+          <?php dynamic_sidebar('homepage-intro-copy'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Intro Stats -->
+        <div class="col-md-6">
+          <?php dynamic_sidebar('homepage-intro-stats'); ?>
         </div>
       </div>
 
@@ -82,23 +87,13 @@ Template Post Type: page
       </div>
     </div>
 
-    <!-- Homepage Intro Section -->
-    <div class="container intro-section">
-
+    <!-- Widget Area: Homepage Manifesto Section-->
+    <div class="container manifesto-section">
       <div class="row">
-        <!-- Widget Area: Homepage Intro Title -->
         <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-intro-title'); ?>
+          <?php dynamic_sidebar('homepage-manifesto'); ?>
         </div>
       </div>
-
-      <div class="row">
-        <!-- Widget Area: Homepage Intro Copy -->
-        <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-intro-copy'); ?>
-        </div>
-      </div>
-
     </div>
 
   </main>

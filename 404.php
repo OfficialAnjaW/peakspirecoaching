@@ -15,6 +15,7 @@
         <a class="btn btn-primary btn-md" href="<?php echo home_url('/');?>">Click here</a>
       </div>
     </div>
+
   </div>
 
 <?php get_footer(); ?>

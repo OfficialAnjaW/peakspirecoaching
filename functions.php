@@ -127,25 +127,36 @@
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Manifesto Title
+    // Widget Area: Homepage Intro Title
     register_sidebar(array(
-        'name'          => ('Manifesto Title'),
-        'id'            => 'manifesto-title',
-        'description'   => 'Manifesto Title on Homepage',
-        'before_widget' => '<div class="widget-manifesto-title">',
+        'name'          => ('Homepage Intro Title'),
+        'id'            => 'homepage-intro-title',
+        'description'   => 'Homepage Intro Title',
+        'before_widget' => '<div class="widget-homepage-intro-title">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h1 class="manifesto-title-widget-title">',
+        'before_title'  => '<h1 class="homepage-intro-title-widget-title">',
         'after_title'   => '</h1>'
     ));
 
-    // Widget Area: Manifesto Copy
+    // Widget Area: Homepage Intro Copy
     register_sidebar(array(
-        'name'          => ('Manifesto Copy'),
-        'id'            => 'manifesto-copy',
-        'description'   => 'Manifesto Copy on Homepage',
-        'before_widget' => '<div class="widget-manifesto-copy">',
+        'name'          => ('Homepage Intro Copy'),
+        'id'            => 'homepage-intro-copy',
+        'description'   => 'Homepage Intro Copy',
+        'before_widget' => '<div class="widget-homepage-intro-copy">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="manifesto-copy-widget-title">',
+        'before_title'  => '<h3 class="homepage-intro-copy-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area: Homepage Intro Stats
+    register_sidebar(array(
+        'name'          => ('Homepage Intro Stats'),
+        'id'            => 'homepage-intro-stats',
+        'description'   => 'Homepage Intro Stats',
+        'before_widget' => '<div class="widget-homepage-intro-stats">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="homepage-intro-stats-widget-title">',
         'after_title'   => '</h3>'
     ));
 
@@ -226,26 +237,15 @@
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Homepage Intro Title
+    // Widget Area: Homepage Manifesto
     register_sidebar(array(
-        'name'          => ('Homepage Intro Title'),
-        'id'            => 'homepage-intro-title',
-        'description'   => 'Homepage Intro Title',
-        'before_widget' => '<div class="widget-homepage-intro-title">',
+        'name'          => ('Homepage Manifesto'),
+        'id'            => 'homepage-manifesto',
+        'description'   => 'Manifesto on Homepage',
+        'before_widget' => '<div class="widget-homepage-manifesto">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h1 class="homepage-intro-title-widget-title">',
+        'before_title'  => '<h1 class="homepage-manifesto-widget-title">',
         'after_title'   => '</h1>'
-    ));
-
-    // Widget Area: Homepage Intro Copy
-    register_sidebar(array(
-        'name'          => ('Homepage Intro Copy'),
-        'id'            => 'homepage-intro-copy',
-        'description'   => 'Homepage Intro Copy',
-        'before_widget' => '<div class="widget-homepage-intro-copy">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-intro-copy-widget-title">',
-        'after_title'   => '</h3>'
     ));
 
     // Widget Area: Homepage Banner Image

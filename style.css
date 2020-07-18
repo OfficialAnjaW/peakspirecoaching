@@ -158,7 +158,7 @@ footer {
 
 ======================== */
 
-/* Manifesto Section */
+/* Homepage Intro Section */
 
 
 /* Services Section */
@@ -200,6 +200,15 @@ footer {
 .widget-homepage-services-five,
 .widget-homepage-services-six {
   padding: 2% 0;
+}
+
+/* Homepage Manifesto Section */
+
+.widget-homepage-manifesto h6 {
+  font-family: acumin-pro-wide,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 1%;
 }
 
 /* ======================
