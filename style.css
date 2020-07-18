@@ -259,7 +259,7 @@ footer {
   padding-top: 1%;
 }
 
-.widget-founder-section i {
+.widget-founder-section em {
   color: #fca275;
 }
 
@@ -382,7 +382,7 @@ h1.contact-title {
 }
 
 .error-container {
-  padding: 5% 10% 10% 10%;
+  padding: 5% 10% 10% 30%;
 }
 
 
