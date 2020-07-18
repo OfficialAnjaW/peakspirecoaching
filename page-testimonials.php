@@ -7,7 +7,7 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
-<!-- Widget Area: Homepage Hero Image -->
+<!-- Widget Area: Testimonial Hero Image -->
 <div class="row">
   <div class="col-md-12">
     <?php dynamic_sidebar('testimonials-hero-image'); ?>
