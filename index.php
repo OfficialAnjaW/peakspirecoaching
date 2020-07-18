@@ -37,17 +37,6 @@ Template Post Type: page
 
     </div>
 
-    <div class="container-fluid manifesto-banner-image">
-
-      <!-- Widget Area: Homepage Banner Image -->
-      <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('homepage-banner-image'); ?>
-        </div>
-      </div>
-
-    </div>
-
     <!-- Homepage Services Section -->
     <div class="container-fluid services-section">
 
@@ -113,5 +102,14 @@ Template Post Type: page
     </div>
 
   </main>
+
+  <!-- Widget Area: Homepage Banner Image -->
+  <section class="container-fluid manifesto-banner-image">
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('homepage-banner-image'); ?>
+      </div>
+    </div>
+  </section>
 
 <?php get_footer(); ?>

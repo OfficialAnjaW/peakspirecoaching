@@ -149,17 +149,6 @@
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Homepage Banner Image
-    register_sidebar(array(
-        'name'          => ('Homepage Banner Image'),
-        'id'            => 'homepage-banner-image',
-        'description'   => 'Banner Image on Homepage',
-        'before_widget' => '<div class="widget-homepage-banner-image">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-banner-image-widget-title">',
-        'after_title'   => '</h3>'
-    ));
-
     // Widget Area: Homepage Services Header
     register_sidebar(array(
         'name'          => ('Homepage Services Title'),
@@ -256,6 +245,17 @@
         'before_widget' => '<div class="widget-homepage-intro-copy">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3 class="homepage-intro-copy-widget-title">',
+        'after_title'   => '</h3>'
+    ));
+
+    // Widget Area: Homepage Banner Image
+    register_sidebar(array(
+        'name'          => ('Homepage Banner Image'),
+        'id'            => 'homepage-banner-image',
+        'description'   => 'Banner Image on Homepage',
+        'before_widget' => '<div class="widget-homepage-banner-image">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="homepage-banner-image-widget-title">',
         'after_title'   => '</h3>'
     ));
 
