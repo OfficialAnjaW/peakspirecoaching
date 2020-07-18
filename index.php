@@ -31,13 +31,8 @@ Template Post Type: page
       <div class="row">
 
         <!-- Widget Area: Manifesto Column One -->
-        <div class="col-md-6">
+        <div class="col-md-12">
           <?php dynamic_sidebar('manifesto-column-one'); ?>
-        </div>
-
-        <!-- Widget Area: Manifesto Column Two -->
-        <div class="col-md-6">
-          <?php dynamic_sidebar('manifesto-column-two'); ?>
         </div>
 
       </div>
