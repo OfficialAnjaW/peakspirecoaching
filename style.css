@@ -110,6 +110,13 @@ footer {
   background: #f9f9f9;
   padding: 2% 0 1% 0;
   color: #12244f;
+  text-align: center;
+}
+
+.widget-left-footer,
+.widget-middle-footer,
+.widget-right-footer {
+  margin: 0 auto;
 }
 
 /* Icon Labels */
@@ -127,16 +134,13 @@ footer {
 /* Mobile Responsiveness Footer Widgets */
 
 @media (max-width:992px) {
-  footer {
-    text-align: center;
-  }
 
   .widget-left-footer,
   .widget-middle-footer,
   .widget-right-footer {
     padding: 6%;
-    margin: 0 auto;
   }
+
 }
 
 /* ======================
