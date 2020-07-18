@@ -354,7 +354,6 @@
 
     =====================================*/
 
-
     // Widget Area: Testimonials Hero Image
     register_sidebar(array(
         'name'          => ('Testimonials Hero Image'),
@@ -375,6 +374,7 @@
         'before_title'  => '<h3 class="testimonials-widget-area-slider">',
         'after_title'   => '</h3>'
     ));
+
 
   /*===================================
 
