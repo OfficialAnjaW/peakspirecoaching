@@ -233,15 +233,27 @@ footer {
 
 ======================== */
 
+/* Purpose */
+
 .container-company-purpose {
   background: #f9f9f9;
   padding: 3% 5%;
-  text-align: center;
 }
+
+.widget-company-purpose h6 {
+  font-family: acumin-pro-wide,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 1%;
+}
+
+/* Introduction */
 
 .widget-company-introuction {
   padding: 7% 0 5% 0;
 }
+
+/* Founder */
 
 .widget-founder-section {
   padding: 7% 0;

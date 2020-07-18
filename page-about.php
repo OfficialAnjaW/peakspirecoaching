@@ -22,7 +22,7 @@ Template Post Type: page
     <div class="container-fluid container-company-purpose">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-10">
             <?php dynamic_sidebar('company-purpose'); ?>
           </div>
         </div>
@@ -32,7 +32,7 @@ Template Post Type: page
     <!-- Widget Area: Company Introduction -->
     <div class="container container-company-introduction">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-10">
           <?php dynamic_sidebar('company-introduction'); ?>
         </div>
       </div>

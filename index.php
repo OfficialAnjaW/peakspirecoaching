@@ -24,14 +24,14 @@ Template Post Type: page
 
         <!-- Widget Area: Homepage Intro Title -->
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-10">
             <?php dynamic_sidebar('homepage-intro-title'); ?>
           </div>
         </div>
 
         <!-- Widget Area: Homepage Intro Copy -->
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-10">
             <?php dynamic_sidebar('homepage-intro-copy'); ?>
           </div>
         </div>
