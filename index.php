@@ -31,7 +31,7 @@ Template Post Type: page
 
         <!-- Widget Area: Homepage Intro Copy -->
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-8">
             <?php dynamic_sidebar('homepage-intro-copy'); ?>
           </div>
         </div>

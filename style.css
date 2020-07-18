@@ -50,12 +50,12 @@ h6 {
 /* Buttons */
 
 .btn-primary {
-  background: #6da69b;
+  background: #12244f;
   border: none;
 }
 
 .btn-primary:hover {
-  background: #12244f;
+  background: #6da69b;
 }
 
 
@@ -169,7 +169,7 @@ footer {
 }
 
 .widget-homepage-intro-statistics strong {
-  color: #ffdc6c;
+  color: #fca275;
 }
 
 .intro-section {
