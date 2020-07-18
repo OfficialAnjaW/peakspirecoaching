@@ -161,8 +161,11 @@ footer {
 /* Homepage Intro Section */
 
 .homepage-intro-copy-widget-title,
-.homepage-intro-stats-widget-title {
-  
+.homepage-intro-statistics-widget-title {
+  font-family: acumin-pro-wide,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 1%;
 }
 
 /* Services Section */
@@ -208,7 +211,6 @@ footer {
 
 /* Homepage Manifesto Section */
 
-.widget-homepage-intro-copy h6,
 .widget-homepage-manifesto h6 {
   font-family: acumin-pro-wide,sans-serif;
   font-weight: 600;
