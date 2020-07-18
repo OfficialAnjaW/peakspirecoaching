@@ -325,7 +325,11 @@ h2.entry-title2 {
 
 ======================== */
 
-
+h1.testimonials-widget-area-logo-title {
+  font-family: acumin-pro,sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
 /* ======================
 
