@@ -138,25 +138,25 @@
         'after_title'   => '</h1>'
     ));
 
-    // Widget Area: Manifesto Column One
+    // Widget Area: Manifesto Copy
     register_sidebar(array(
-        'name'          => ('Manifesto Column One'),
-        'id'            => 'manifesto-column-one',
-        'description'   => 'Manifesto Column One on Homepage',
-        'before_widget' => '<div class="widget-manifesto-column-one">',
+        'name'          => ('Manifesto Copy'),
+        'id'            => 'manifesto-copy',
+        'description'   => 'Manifesto Copy on Homepage',
+        'before_widget' => '<div class="widget-manifesto-copy">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="manifesto-column-one-widget-title">',
+        'before_title'  => '<h3 class="manifesto-copy-widget-title">',
         'after_title'   => '</h3>'
     ));
 
-    // Widget Area: Manifesto Column Two
+    // Widget Area: Homepage Banner Image
     register_sidebar(array(
-        'name'          => ('Manifesto Column Two'),
-        'id'            => 'manifesto-column-two',
-        'description'   => 'Manifesto Column Two on Homepage',
-        'before_widget' => '<div class="widget-manifesto-column-two">',
+        'name'          => ('Homepage Banner Image'),
+        'id'            => 'homepage-banner-image',
+        'description'   => 'Banner Image on Homepage',
+        'before_widget' => '<div class="widget-homepage-banner-image">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="manifesto-column-two-widget-title">',
+        'before_title'  => '<h3 class="homepage-banner-image-widget-title">',
         'after_title'   => '</h3>'
     ));
 

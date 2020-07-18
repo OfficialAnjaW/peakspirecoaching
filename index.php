@@ -21,25 +21,29 @@ Template Post Type: page
     <!-- Homepage Manifesto Section -->
     <div class="container manifesto-section">
 
+      <!-- Widget Area: Manifesto Title -->
       <div class="row">
-        <!-- Widget Area: Manifesto Title -->
         <div class="col-md-12">
           <?php dynamic_sidebar('manifesto-title'); ?>
         </div>
       </div>
 
+      <!-- Widget Area: Manifesto Copy -->
       <div class="row">
-
-        <!-- Widget Area: Manifesto Column One -->
-        <div class="col-md-6">
+        <div class="col-md-12">
           <?php dynamic_sidebar('manifesto-column-one'); ?>
         </div>
+      </div>
 
-        <!-- Widget Area: Manifesto Column Two -->
-        <div class="col-md-6">
-          <?php dynamic_sidebar('manifesto-column-two'); ?>
+    </div>
+
+    <div class="container-fluid manifesto-banner-image">
+
+      <!-- Widget Area: Homepage Banner Image -->
+      <div class="row">
+        <div class="col-md-12">
+          <?php dynamic_sidebar('homepage-banner-image'); ?>
         </div>
-
       </div>
 
     </div>
