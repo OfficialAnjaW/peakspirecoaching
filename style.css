@@ -292,29 +292,9 @@ h1.entry-title2 {
   padding: 50px 0px;
 }
 
-.col-lg-2 services {
+.col-lg-2.services {
   text-align: center;
 }
-.widget-service-img1 {
-  max-width: 80%;
-}
-
-.widget-service-img2 {
-  max-width: 80%;
-}
-.widget-service-img3 {
-  max-width: 80%;
-}
-.widget-service-img4 {
-  max-width: 80%;
-}
-.widget-service-img5 {
-  max-width: 80%;
-}
-.widget-service-img6 {
-  max-width: 80%;
-}
-
 .widget-service-txt1 {
   padding-bottom: 20px;
 }
