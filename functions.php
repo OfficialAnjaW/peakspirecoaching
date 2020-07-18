@@ -150,15 +150,15 @@
     ));
 
     // Widget Area: Manifesto Column Two
-    // register_sidebar(array(
-    //     'name'          => ('Manifesto Column Two'),
-    //     'id'            => 'manifesto-column-two',
-    //     'description'   => 'Manifesto Column Two on Homepage',
-    //     'before_widget' => '<div class="widget-manifesto-column-two">',
-    //     'after_widget'  => '</div>',
-    //     'before_title'  => '<h3 class="manifesto-column-two-widget-title">',
-    //     'after_title'   => '</h3>'
-    // ));
+    register_sidebar(array(
+        'name'          => ('Manifesto Column Two'),
+        'id'            => 'manifesto-column-two',
+        'description'   => 'Manifesto Column Two on Homepage',
+        'before_widget' => '<div class="widget-manifesto-column-two">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="manifesto-column-two-widget-title">',
+        'after_title'   => '</h3>'
+    ));
 
     // Widget Area: Homepage Services Header
     register_sidebar(array(
