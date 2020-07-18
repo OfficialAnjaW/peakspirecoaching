@@ -244,8 +244,8 @@
         'description'   => 'Homepage Intro Title',
         'before_widget' => '<div class="widget-homepage-intro-title">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="homepage-intro-title-widget-title">',
-        'after_title'   => '</h3>'
+        'before_title'  => '<h1 class="homepage-intro-title-widget-title">',
+        'after_title'   => '</h1>'
     ));
 
     // Widget Area: Homepage Intro Copy

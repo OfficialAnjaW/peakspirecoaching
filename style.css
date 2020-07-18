@@ -121,7 +121,7 @@ footer {
 }
 
 .zoom-social_icons-list__label:hover {
-    color: #6da69b;
+  color: #6da69b;
 }
 
 /* ======================
@@ -129,6 +129,15 @@ footer {
   Homepage
 
 ======================== */
+
+/* Manifesto Section */
+
+.homepage-intro-title-widget-title,
+.manifesto-title-widget-title {
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Services Section */
 
@@ -220,46 +229,46 @@ h2.entry-title2 {
 }
 
 .widget-service-img1 {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 .widget-service-img2 {
-    max-width: 80%;
+  max-width: 80%;
 }
 .widget-service-img3 {
-    max-width: 80%;
+  max-width: 80%;
 }
 .widget-service-img4 {
-    max-width: 80%;
+  max-width: 80%;
 }
 .widget-service-img5 {
-    max-width: 80%;
+  max-width: 80%;
 }
 .widget-service-img6 {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 .widget-service-txt1 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .widget-service-txt2 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .widget-service-txt3 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .widget-service-txt4 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .widget-service-txt5 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .widget-service-txt6 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -278,7 +287,7 @@ h2.entry-title2 {
 ======================== */
 
 h2.entry-title {
-    font-family: acumin-pro,sans-serif;
+  font-family: acumin-pro,sans-serif;
 }
 
 
@@ -287,7 +296,7 @@ h2.entry-title {
 }
 
 .widget-contact-form {
-    padding-top: 45px;
+  padding-top: 45px;
 }
 
 /* ======================
