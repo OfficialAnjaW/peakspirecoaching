@@ -375,6 +375,17 @@
         'after_title'   => '</h1>'
     ));
 
+    register_sidebar(array(
+        'name'          => ('Testimonials Logo Widget'),
+        'id'            => 'testimonials-logo-title',
+        'description'   => 'Testimonial Widget Logo Title Area',
+        'before_widget' => '<div class="widget-testimonials-logo-title">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="testimonials-widget-area-logo-title">',
+        'after_title'   => '</h1>'
+    ));
+
+
 
   /*===================================
 
