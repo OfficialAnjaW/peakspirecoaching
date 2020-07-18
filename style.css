@@ -324,14 +324,14 @@ h1.entry-title2 {
 
 ======================== */
 
-.entry-title-testimonial {
-  padding:20px 0px;
+h1.entry-title-testimonial {
+  padding:50px 0px;
 }
 
 h1.testimonials-widget-area-logo-title {
   padding-bottom: 20px;
   padding-top: 20px;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .clientsimg {
