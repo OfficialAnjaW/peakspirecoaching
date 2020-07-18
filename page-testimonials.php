@@ -52,7 +52,7 @@ Template Post Type: page
               </div>
             </section>
 
-            <section>
+            <section class="clientsimg">
               <div class="row d-flex justify-content-between">
                 <div class="col-lg-3">
                   <?php dynamic_sidebar('testimonials-logo-img1'); ?>
