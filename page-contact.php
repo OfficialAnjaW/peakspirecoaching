@@ -8,7 +8,7 @@ Template Post Type: page
 <?php get_header(); ?>
   <main class="container">
 
-  <!--======================= start about us content post=====================------->
+  <!-- start about us content post -->
     <section>
       <div class="row justify-content-center posts">
         <div class="col-lg-12">
@@ -26,7 +26,7 @@ Template Post Type: page
       </div>
     </section>
 
-<!-- begin widget for contact us form------------------->
+<!-- begin widget for contact us form -->
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-6">
@@ -38,7 +38,7 @@ Template Post Type: page
         </div>
       </div>
     </section>
-<!-- end widget area----------------------------------->
+<!-- end widget area -->
 
   </main>
 
