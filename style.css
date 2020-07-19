@@ -251,42 +251,6 @@ footer {
   padding-top: 1%;
 }
 
-/* Mobile Responsiveness */
-
-@media (max-width:800px) {
-
-  .intro-section {
-    padding: 10% 0 15% 0;
-  }
-
-  h6 {
-    line-height: 1.4;
-  }
-
-  h1 {
-    line-height: 1em;
-  }
-
-  .container-fluid.services-section {
-    padding: 10% 0;
-    margin-bottom: 15%;
-  }
-
-  .widget-homepage-services-one a,
-  .widget-homepage-services-two a,
-  .widget-homepage-services-three a,
-  .widget-homepage-services-four a,
-  .widget-homepage-services-five a,
-  .widget-homepage-services-six a {
-    padding-bottom: 5% 0;
-  }
-
-  .widget-homepage-banner-image {
-    margin-top: 10%;
-  }
-
-}
-
 /* ======================
 
   About Us
@@ -335,7 +299,6 @@ footer {
 /* Newsletter Form Subscription */
 
 .container-newsletter {
-  padding-bottom: 7%;
   background: #f9f9f9;
   padding: 5% 0 2% 0;
   margin-top: 7%;
@@ -362,7 +325,7 @@ button.frm_button_submit {
   padding: 1% 2%;
   margin: 3% 0;
   font-family: acumin-pro,sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -468,4 +431,62 @@ h1.contact-title {
 
 .error-container {
   padding: 7% 10%;
+}
+
+/* ======================
+
+  Mobile Responsiveness
+
+======================== */
+
+@media (max-width:800px) {
+
+  .intro-section {
+    padding: 10% 0 15% 0;
+  }
+
+  h6 {
+    line-height: 1.4;
+  }
+
+  h1 {
+    line-height: 1em;
+  }
+
+  .container-fluid.services-section {
+    padding: 10% 0;
+    margin-bottom: 15%;
+  }
+
+  .widget-homepage-services-one a,
+  .widget-homepage-services-two a,
+  .widget-homepage-services-three a,
+  .widget-homepage-services-four a,
+  .widget-homepage-services-five a,
+  .widget-homepage-services-six a {
+    padding-bottom: 5% 0;
+  }
+
+  .widget-homepage-banner-image {
+    margin-top: 10%;
+  }
+
+  .container-company-purpose {
+    padding: 10% 0 15% 0;
+    margin-bottom: 15%;
+  }
+
+  .widget-founder-image {
+    margin-top: 15%;
+  }
+
+  .container.container-founder-section {
+    margin-top: 15%;
+  }
+
+  .container-newsletter {
+    padding: 15% 0 10% 0;
+    margin-top: 7%;
+   }
+
 }
