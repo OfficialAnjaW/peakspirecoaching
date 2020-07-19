@@ -351,11 +351,9 @@ h1.entry-title-testimonial {
   padding: 50px 0px;
 }
 
-h1.testimonials-widget-area-logo-title {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: 30px;
-  padding-left: 10px;
+.widget-testimonials-logo-title {
+  padding: 20px 10px;
+
 }
 
 
