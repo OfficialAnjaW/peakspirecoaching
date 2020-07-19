@@ -385,31 +385,12 @@ h1.entry-title-testimonial {
   padding: 50px 0px;
 }
 
-h1.testimonials-widget-area-logo-title {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: 26px;
+.widget-testimonials-logo-title {
+  padding: 20px 10px;
+
 }
 
-.clientsimg {
-  padding: 50px 10px;
-}
 
-.widget-testimonials-logo-img1 {
-  padding-bottom: 15px;
-}
-
-.widget-testimonials-logo-img2 {
-  padding-bottom: 15px;
-}
-
-.widget-testimonials-logo-img3 {
-  padding-bottom: 15px;
-}
-
-.widget-testimonials-logo-img4 {
-  padding-bottom: 15px;
-}
 /* ======================
 
   Contact Us
