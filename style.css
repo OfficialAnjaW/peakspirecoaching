@@ -250,9 +250,6 @@ footer {
 /* Homepage Manifesto Section */
 
 .widget-homepage-manifesto h6 {
-  font-family: acumin-pro-wide,sans-serif;
-  font-weight: 600;
-  font-style: normal;
   padding-top: 1%;
 }
 
@@ -292,9 +289,6 @@ footer {
 .widget-company-purpose h6,
 .widget-company-introuction h6,
 .widget-founder-section h6 {
-  font-family: acumin-pro-wide,sans-serif;
-  font-weight: 600;
-  font-style: normal;
   padding-top: 1%;
 }
 
@@ -303,7 +297,7 @@ footer {
 .container-newsletter {
   padding-bottom: 7%;
   background: #f9f9f9;
-  padding: 10%;
+  padding: 5% 0 2% 0;
 }
 
 label {
@@ -335,6 +329,11 @@ button.frm_button_submit:hover {
 
 label#field_mdwt5_label {
     padding-top: 3%;
+}
+
+/* Page Banner */
+section.about-page-banner-image {
+    background: #f9f9f9;
 }
 
 /* ======================
