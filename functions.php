@@ -577,6 +577,18 @@
         'after_title'   => '</h3>'
     ));
 
+
+
+  register_sidebar(array(
+      'name'          => ('Services Bottom CTA'),
+      'id'            => 'service-cta',
+      'description'   => 'Widget for Service CTA',
+      'before_widget' => '<div class="widget-service-cta">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-service-cta">',
+      'after_title'   => '</h3>'
+  ));
+
 /*===================================
 
   Widget Areas 404.php
