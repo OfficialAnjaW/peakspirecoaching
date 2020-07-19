@@ -55,15 +55,15 @@ Template Post Type: page
     </div>
 
     <div class="container container-video-newsletter">
-      <div class="row">
+      <div class="row d-flex justify-content-between">
 
         <!-- Widget Area: Company Video -->
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <?php dynamic_sidebar('company-video'); ?>
         </div>
 
         <!-- Widget Area: Newsletter Subscription -->
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <?php dynamic_sidebar('newsletter-subscription'); ?>
         </div>
 

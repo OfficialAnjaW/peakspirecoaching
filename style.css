@@ -256,17 +256,31 @@ footer {
 
 ======================== */
 
+/* Purpose */
+
 .container-company-purpose {
   background: #f9f9f9;
   padding: 3% 0;
 }
 
+.widget-company-purpose em {
+  color: #6da69b;
+}
+
+/* Introduction */
+
 .widget-company-introuction {
   padding: 7% 0;
 }
 
+/* Founder */
+
 .widget-founder-section {
   padding: 7% 0;
+}
+
+.widget-founder-section em {
+  color: #fca275;
 }
 
 .widget-company-purpose h6,
@@ -278,9 +292,13 @@ footer {
   padding-top: 1%;
 }
 
-.widget-founder-section em {
-  color: #fca275;
+/* Newsletter & Video */
+
+.container-video-newsletter {
+  padding-bottom: 7%;
 }
+
+
 
 /* ======================
 
