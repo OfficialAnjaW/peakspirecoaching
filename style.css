@@ -320,6 +320,9 @@ button.frm_button_submit {
   color: #ffffff;
   padding: 1% 2%;
   margin: 3% 0;
+  font-family: acumin-pro,sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 button.frm_button_submit:hover {
@@ -333,7 +336,7 @@ label#field_mdwt5_label {
 
 /* Page Banner */
 section.about-page-banner-image {
-    background: #f9f9f9;
+  background: #f9f9f9;
 }
 
 /* ======================
