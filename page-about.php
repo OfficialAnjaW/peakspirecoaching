@@ -55,10 +55,12 @@ Template Post Type: page
     </div>
 
     <!-- Widget Area: Newsletter Subscription -->
-    <div class="container container-newsletter">
-      <div class="row">
-        <div class="col-lg-6">
-          <?php dynamic_sidebar('newsletter-subscription'); ?>
+    <div class="containter-fluid container-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <?php dynamic_sidebar('newsletter-subscription'); ?>
+          </div>
         </div>
       </div>
     </div>

@@ -39,9 +39,15 @@ h4 {
   color: #12244f;
 }
 
-h5,
-h6 {
+h5 {
   font-family: acumin-pro-condensed,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #6da69b;
+}
+
+h6 {
+  font-family: acumin-pro-wide,sans-serif;
   font-weight: 600;
   font-style: normal;
   color: #6da69b;
@@ -296,9 +302,6 @@ footer {
 
 .container-newsletter {
   padding-bottom: 7%;
-}
-
-.widget-newsletter-subscription {
   background: #f9f9f9;
   padding: 10%;
 }
