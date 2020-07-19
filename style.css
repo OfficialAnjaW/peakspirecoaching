@@ -68,7 +68,6 @@ a.btn.btn-primary.btn-md {
   margin-top: 2%;
 }
 
-
 /* ======================
 
   Header Styling
@@ -80,20 +79,6 @@ a.btn.btn-primary.btn-md {
 header img {
   max-width: 180px;
   object-fit: contain;
-}
-
-/* Hero Image */
-
-div#n2-ss-4 .n2-font-253d96c1a68c6e270f9aadaf8f86845b-hover {
-  font-family: acumin-pro-extra-condensed,sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-div#n2-ss-4 .n2-font-37213fe73f82b18706d4317a894623bc-hover {
-  font-family: acumin-pro-wide,sans-serif;
-  font-weight: 600;
-  font-style: normal;
 }
 
 /* Navigation Menu */
@@ -128,9 +113,9 @@ nav {
 
 .mysticky-welcomebar-btn,
 .mysticky-welcomebar-content {
-    font-family: acumin-pro,sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: acumin-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* ======================
@@ -335,7 +320,7 @@ button.frm_button_submit:hover {
 }
 
 label#field_mdwt5_label {
-    padding-top: 3%;
+  padding-top: 3%;
 }
 
 /* Page Banner */
@@ -356,9 +341,11 @@ h1.entry-title2 {
 .col-lg-2.services {
   text-align: center;
 }
+
 .widget-service-txt1 {
   padding-bottom: 20px;
 }
+
 .widget-service-txt2 {
   padding-bottom: 20px;
 }
@@ -380,8 +367,8 @@ h1.entry-title2 {
 }
 
 .widget_text.widget-service-cta {
-    padding-bottom: 50px;
-    text-align: center;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 /* ======================
@@ -396,9 +383,7 @@ h1.entry-title-testimonial {
 
 .widget-testimonials-logo-title {
   padding: 20px 10px;
-
 }
-
 
 /* ======================
 

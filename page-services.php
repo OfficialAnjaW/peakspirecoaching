@@ -1,18 +1,18 @@
 <?php
 /*
-Template Name: Services Page
+Template Name: Services
 Template Post Type: page
 */
 ?>
 
 <?php get_header(); ?>
 
-<!-- Widget Area: Homepage Hero Image -->
-<div class="row">
-  <div class="col-md-12">
-    <?php dynamic_sidebar('services-hero-image'); ?>
+  <!-- Widget Area: Homepage Hero Image -->
+  <div class="row">
+    <div class="col-md-12">
+      <?php dynamic_sidebar('services-hero-image'); ?>
+    </div>
   </div>
-</div>
 
   <main class="container">
 
@@ -51,6 +51,7 @@ Template Post Type: page
         </div>
       </div>
     </section>
+
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-2 services">
@@ -90,7 +91,7 @@ Template Post Type: page
         <div class="col-lg-12">
           <?php dynamic_sidebar('service-cta'); ?>
         </div>
-    </div>
+      </div>
     </section>
 <!-- end widget area -->
 

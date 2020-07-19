@@ -1,18 +1,18 @@
 <?php
 /*
-Template Name: Testimonials Page
+Template Name: Testimonials
 Template Post Type: page
 */
 ?>
 
 <?php get_header(); ?>
 
-<!-- Widget Area: Testimonial Hero Image -->
-<div class="row">
-  <div class="col-md-12">
-    <?php dynamic_sidebar('testimonials-hero-image'); ?>
+  <!-- Widget Area: Testimonial Hero Image -->
+  <div class="row">
+    <div class="col-md-12">
+      <?php dynamic_sidebar('testimonials-hero-image'); ?>
+    </div>
   </div>
-</div>
 
   <main class="container">
 
@@ -35,32 +35,32 @@ Template Post Type: page
     </section>
 
     <!-- begin widget for testimonial slider widget -->
-        <section>
-          <div class="row d-flex justify-content-between">
-            <div class="col-lg-12">
-              <?php dynamic_sidebar('testimonials-slider-widget'); ?>
-            </div>
-          </div>
-        </section>
+    <section>
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-12">
+          <?php dynamic_sidebar('testimonials-slider-widget'); ?>
+        </div>
+      </div>
+    </section>
 
 
     <!-- begin widgets for testimonial logo title and image area -->
-            <section>
-              <div class="row d-flex justify-content-between">
-                <div class="col-lg-12">
-                  <?php dynamic_sidebar('testimonials-logo-title'); ?>
-                </div>
-              </div>
-            </section>
+    <section>
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-12">
+          <?php dynamic_sidebar('testimonials-logo-title'); ?>
+        </div>
+      </div>
+    </section>
 
 
-            <section>
-              <div class="row d-flex justify-content-between">
-                <div class="col-lg-12">
-                  <?php dynamic_sidebar('testimonials-logo-grid'); ?>
-                </div>
-              </div>
-            </section>
+    <section>
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-12">
+          <?php dynamic_sidebar('testimonials-logo-grid'); ?>
+        </div>
+      </div>
+    </section>
 <!-- end widget area -->
 
   </main>

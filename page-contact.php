@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Contact Page
+Template Name: Contact
 Template Post Type: page
 */
 ?>
@@ -8,7 +8,7 @@ Template Post Type: page
 <?php get_header(); ?>
   <main class="container">
 
-  <!-- start about us content post -->
+    <!-- start about us content post -->
     <section>
       <div class="row justify-content-center posts">
         <div class="col-lg-12">
@@ -26,19 +26,19 @@ Template Post Type: page
       </div>
     </section>
 
-<!-- begin widget for contact us form -->
+   <!-- begin widget for contact us form -->
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-6">
           <?php dynamic_sidebar('contact-us-form'); ?>
         </div>
-<!-- begin widget for contact google map info --------->
+        <!-- begin widget for contact google map info --------->
         <div class="col-lg-6 col-sm-12">
           <?php dynamic_sidebar('contact-us-map'); ?>
         </div>
       </div>
     </section>
-<!-- end widget area -->
+    <!-- end widget area -->
 
   </main>
 
