@@ -292,13 +292,47 @@ footer {
   padding-top: 1%;
 }
 
-/* Newsletter */
+/* Newsletter Form Subscription */
 
 .container-newsletter {
   padding-bottom: 7%;
 }
 
+.widget-newsletter-subscription {
+  background: #f9f9f9;
+  padding: 10%;
+}
 
+label {
+  color: #12244f;
+  font-family: acumin-pro-semi-condensed,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+input {
+  border: 1px solid #12244f;
+  display: block;
+  width: 90%;
+}
+
+button.frm_button_submit {
+  background: #12244f;
+  border: 1px solid #12244f;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 1% 2%;
+  margin: 3% 0;
+}
+
+button.frm_button_submit:hover {
+  background: #6da69b;
+  border: 1px solid #6da69b;
+}
+
+label#field_mdwt5_label {
+    padding-top: 3%;
+}
 
 /* ======================
 
