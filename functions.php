@@ -320,6 +320,28 @@
         'after_title'   => '</h1>'
     ));
 
+    // Widget Area: Comopany Video
+    register_sidebar(array(
+        'name'          => ('Company Video'),
+        'id'            => 'company-video',
+        'description'   => 'Company Video',
+        'before_widget' => '<div class="widget-company-video">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h6 class="company-video-widget-title">',
+        'after_title'   => '</h6>'
+    ));
+
+    // Widget Area: Founder Section
+    register_sidebar(array(
+        'name'          => ('Newsletter Subscription'),
+        'id'            => 'newsletter-subscription',
+        'description'   => 'Newsletter Subscription',
+        'before_widget' => '<div class="widget-newsletter-subscription">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h6 class="newsletter-subscription-widget-title">',
+        'after_title'   => '</h6>'
+    ));
+
     // Widget Area: About Banner Image
     register_sidebar(array(
         'name'          => ('About Banner Image'),
@@ -576,8 +598,6 @@
         'before_title'  => '<h3 class="widget-service-us-txt6">',
         'after_title'   => '</h3>'
     ));
-
-
 
     register_sidebar(array(
         'name'          => ('Services Bottom CTA'),
