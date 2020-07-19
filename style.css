@@ -165,7 +165,7 @@ footer {
   .widget-left-footer,
   .widget-middle-footer,
   .widget-right-footer {
-    padding: 0 6%;
+    padding: 6% 0;
   }
 
 }
