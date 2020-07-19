@@ -267,12 +267,9 @@ footer {
     line-height: 1em;
   }
 
-  /* .container.manifesto-section {
-    padding: 15% 0;
-  } */
-
   .container-fluid.services-section {
     padding: 10% 0;
+    margin-bottom: 15%;
   }
 
   .widget-homepage-services-one a,
@@ -282,6 +279,10 @@ footer {
   .widget-homepage-services-five a,
   .widget-homepage-services-six a {
     padding-bottom: 5% 0;
+  }
+
+  .widget-homepage-banner-image {
+    margin-top: 10%;
   }
 
 }
