@@ -254,9 +254,9 @@ footer {
 /* Mobile Responsiveness */
 
 @media (max-width:800px) {
-  
+
   .intro-section {
-    padding: 15% 0;
+    padding: 10% 0 15% 0;
   }
 
   h6 {
@@ -267,12 +267,21 @@ footer {
     line-height: 1em;
   }
 
-  .container.manifesto-section {
+  /* .container.manifesto-section {
     padding: 15% 0;
-  }
+  } */
 
   .container-fluid.services-section {
     padding: 10% 0;
+  }
+
+  .widget-homepage-services-one a,
+  .widget-homepage-services-two a,
+  .widget-homepage-services-three a,
+  .widget-homepage-services-four a,
+  .widget-homepage-services-five a,
+  .widget-homepage-services-six a {
+    padding-bottom: 5% 0;
   }
 
 }
