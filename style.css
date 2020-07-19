@@ -276,10 +276,16 @@ footer {
   padding: 7% 0;
 }
 
-/* Founder */
+/* Founder Image */
+
+.widget-founder-image {
+  margin-bottom: 7%;
+}
+
+/* Founder Section*/
 
 .widget-founder-section {
-  padding: 7% 0;
+  padding: 2% 0;
 }
 
 .widget-founder-section em {
@@ -298,6 +304,7 @@ footer {
   padding-bottom: 7%;
   background: #f9f9f9;
   padding: 5% 0 2% 0;
+  margin-top: 7%;
 }
 
 label {

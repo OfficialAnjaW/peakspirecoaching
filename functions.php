@@ -320,17 +320,6 @@
         'after_title'   => '</h1>'
     ));
 
-    // Widget Area: Comopany Video
-    register_sidebar(array(
-        'name'          => ('Company Video'),
-        'id'            => 'company-video',
-        'description'   => 'Company Video',
-        'before_widget' => '<div class="widget-company-video">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h6 class="company-video-widget-title">',
-        'after_title'   => '</h6>'
-    ));
-
     // Widget Area: Founder Section
     register_sidebar(array(
         'name'          => ('Newsletter Subscription'),

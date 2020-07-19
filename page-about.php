@@ -54,15 +54,6 @@ Template Post Type: page
       </div>
     </div>
 
-    <!-- Widget Area: Company Video -->
-    <div class="container container-company-video">
-      <div class="row">
-        <div class="col-md-6">
-          <?php dynamic_sidebar('company-video'); ?>
-        </div>
-      </div>
-    </div>
-
     <!-- Widget Area: Newsletter Subscription -->
     <div class="containter-fluid container-newsletter">
       <div class="container">
