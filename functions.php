@@ -459,12 +459,12 @@
     ));
 
     register_sidebar(array(
-      'name'          => ('Testimonials Logo Widget Slider'),
-      'id'            => 'testimonials-logo-widget',
-      'description'   => 'Testimonial Widget Slider',
-      'before_widget' => '<div class="widget-testimonials-logo-widget">',
+      'name'          => ('Testimonials Logo Grid'),
+      'id'            => 'testimonials-logo-grid',
+      'description'   => 'Testimonial Widget Grid',
+      'before_widget' => '<div class="widget-testimonials-logo-grid">',
       'after_widget'  => '</div>',
-      'before_title'  => '<h1 class="testimonials-widget-logo-slider-area">',
+      'before_title'  => '<h1 class="testimonials-widget-logo-grid-area">',
       'after_title'   => '</h1>'
     ));
 

@@ -76,7 +76,7 @@ Template Post Type: page
             <section>
               <div class="row d-flex justify-content-between">
                 <div class="col-lg-12">
-                  <?php dynamic_sidebar('testimonials-logo-widget'); ?>
+                  <?php dynamic_sidebar('testimonials-logo-grid'); ?>
                 </div>
               </div>
             </section>
