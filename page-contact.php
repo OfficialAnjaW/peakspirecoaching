@@ -23,6 +23,7 @@ Template Post Type: page
             }// this ends if statement
           ?>
         </div>
+      </div>
     </section>
 
 <!-- begin widget for contact us form------------------->

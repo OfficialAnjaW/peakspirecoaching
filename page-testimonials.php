@@ -16,7 +16,7 @@ Template Post Type: page
 
   <main class="container">
 
-  <!--======================= start testimonial post=====================------->
+  <!-- start testimonial post -->
     <section>
       <div class="row justify-content-center posts">
         <div class="col-lg-12">
@@ -31,9 +31,10 @@ Template Post Type: page
             }// this ends if statement
           ?>
         </div>
+      </div>
     </section>
 
-    <!-- begin widget for testimonial slider widget -------------------------------->
+    <!-- begin widget for testimonial slider widget -->
         <section>
           <div class="row d-flex justify-content-between">
             <div class="col-lg-12">
@@ -43,7 +44,7 @@ Template Post Type: page
         </section>
 
 
-    <!-- begin widgets for testimonial logo title and image area --------------------->
+    <!-- begin widgets for testimonial logo title and image area -->
             <section>
               <div class="row d-flex justify-content-between">
                 <div class="col-lg-12">
@@ -52,7 +53,7 @@ Template Post Type: page
               </div>
             </section>
 
-        
+
             <section>
               <div class="row d-flex justify-content-between">
                 <div class="col-lg-12">
@@ -60,7 +61,7 @@ Template Post Type: page
                 </div>
               </div>
             </section>
-<!-- end widget area----------------------------------->
+<!-- end widget area -->
 
   </main>
 

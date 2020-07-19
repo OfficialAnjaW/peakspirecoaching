@@ -7,7 +7,7 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
-<!-- Widget Area: Homepage Hero Image ------->
+<!-- Widget Area: Homepage Hero Image -->
 <div class="row">
   <div class="col-md-12">
     <?php dynamic_sidebar('services-hero-image'); ?>
@@ -16,7 +16,7 @@ Template Post Type: page
 
   <main class="container">
 
-  <!--======================= start services post=====================------->
+  <!-- start services post -->
     <section>
       <div class="row justify-content-center posts">
         <div class="col-lg-12">
@@ -31,9 +31,10 @@ Template Post Type: page
             }// this ends if statement
           ?>
         </div>
+      </div>
     </section>
 
-<!-- begin widget for serivces form------------------->
+<!-- begin widget for serivces form -->
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-2 services">
@@ -91,7 +92,7 @@ Template Post Type: page
         </div>
     </div>
     </section>
-<!-- end widget area----------------------------------->
+<!-- end widget area -->
 
   </main>
 

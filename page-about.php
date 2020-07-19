@@ -68,12 +68,12 @@ Template Post Type: page
   </main>
 
   <!-- Widget Area: About Banner Image -->
-  <section class="about-page-banner-image">
+  <div class="about-page-banner-image">
     <div class="row">
       <div class="col-md-12">
         <?php dynamic_sidebar('about-banner-image'); ?>
       </div>
     </div>
-  </section>
+  </div>
 
 <?php get_footer(); ?>

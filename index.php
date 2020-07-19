@@ -103,12 +103,12 @@ Template Post Type: page
   </main>
 
   <!-- Widget Area: Homepage Banner Image -->
-  <section class="manifesto-banner-image">
+  <div class="manifesto-banner-image">
     <div class="row">
       <div class="col-md-12">
         <?php dynamic_sidebar('homepage-banner-image'); ?>
       </div>
     </div>
-  </section>
+  </div>
 
 <?php get_footer(); ?>
