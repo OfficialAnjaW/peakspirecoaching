@@ -37,13 +37,13 @@ Template Post Type: page
 <!-- begin widget for serivces form -->
     <section>
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-2 services">
+        <div class="col-lg-2 services-top">
           <?php dynamic_sidebar('service-img-1'); ?>
         </div>
         <div class="col-lg-4">
           <?php dynamic_sidebar('service-text-1'); ?>
         </div>
-        <div class="col-lg-2 services">
+        <div class="col-lg-2 services-top">
           <?php dynamic_sidebar('service-img-2'); ?>
         </div>
         <div class="col-lg-4">

@@ -340,14 +340,21 @@ h1.entry-title2 {
 
 .col-lg-2.services {
   text-align: center;
+
+}
+
+.col-lg-2.services-top{
+  padding-top: 10px;
 }
 
 .widget-service-txt1 {
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .widget-service-txt2 {
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .widget-service-txt3 {
