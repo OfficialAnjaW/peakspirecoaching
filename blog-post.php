@@ -34,7 +34,7 @@ Template post type: post
             while(have_posts()){
               the_post(); ?>
               <h2 class="entry-title"><?php the_title(); ?></h2>
-              <h5 class="single-post-info"><?php echo "Author: " . get_the_author(); echo " // " . get_the_date() . " // "; the_category();?></h5>
+              <h5 class="single-post-info"><?php echo "Author: " . get_the_author(); echo " // " . get_the_date();?></h5>
 
               <?php the_content(); ?>
           <?php  } //this ends while loop
