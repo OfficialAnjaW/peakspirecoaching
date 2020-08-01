@@ -367,13 +367,13 @@ h1.entry-title2 {
 }
 
 .widget_text.widget-service-cta {
-  padding-bottom: 50px;
-  text-align: center;
+  text-align: left;
+  padding: 5% 0 5% 6%;
 }
 
 .container-newsletter-services {
   background: #ffffff;
-  padding: 5% 2% 2% 5%;
+  padding: 5% 2% 5% 5%;
 }
 
 /* ======================
