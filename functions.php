@@ -568,6 +568,18 @@
       'after_title'   => '</h3>'
     ));
 
+    register_sidebar(array(
+      'name'          => ('Services Newsletter CTA'),
+      'id'            => 'service-newsletter',
+      'description'   => 'Widget for Service Newsletter',
+      'before_widget' => '<div class="widget-service-newsletter">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-service-newsletter-signup">',
+      'after_title'   => '</h3>'
+    ));
+
+
+
 /*===================================
 
   Widget Areas 404.php

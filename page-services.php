@@ -85,7 +85,7 @@ Template Post Type: page
         </div>
     </div>
     </section>
-
+<!-- Call to Action section starts here------->
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-12">
@@ -93,6 +93,18 @@ Template Post Type: page
         </div>
       </div>
     </section>
+
+<!---Newsletter sign up for services page starts here ------>
+    <section>
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-12">
+          <?php dynamic_sidebar('service-newsletter'); ?>
+        </div>
+      </div>
+    </section>
+
+
+
 <!-- end widget area -->
 
   </main>
