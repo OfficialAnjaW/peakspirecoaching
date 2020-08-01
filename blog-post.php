@@ -16,7 +16,7 @@ Template post type: post
         while(have_posts()){
           the_post(); ?>
 
-        <div class="col-12">
+        <div class="col-12 blog-post">
           <?php the_post_thumbnail(); ?>
         </div>
       <?php  } //this ends while loop

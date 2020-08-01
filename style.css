@@ -421,6 +421,20 @@ h1.contact-title {
   padding-bottom: 40px;
 }
 
+
+
+/* ======================
+
+  blog-post.php styling
+
+======================== */
+
+/*styling for the header image*/
+.col-12 blog-post {
+    text-align: center;
+    padding: 20px;
+}
+
 /* ======================
 
   404
