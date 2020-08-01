@@ -96,7 +96,7 @@ Template Post Type: page
 
 <!---Newsletter sign up for services page starts here ------>
     <section>
-      <div class="containter-fluid container-newsletter">
+      <div class="containter-fluid container-newsletter-services">
         <div class="col-lg-8">
           <?php dynamic_sidebar('service-newsletter'); ?>
         </div>
