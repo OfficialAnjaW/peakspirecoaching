@@ -418,6 +418,17 @@
       'after_title'   => '</h1>'
     ));
 
+    register_sidebar(array(
+      'name'          => ('Testimonials Contact Area'),
+      'id'            => 'testimonials-contact',
+      'description'   => 'Testimonial Widget Contact',
+      'before_widget' => '<div class="widget-testimonials-contact-cta">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h1 class="testimonials-widget-contact-section">',
+      'after_title'   => '</h1>'
+    ));
+
+
 
 /*===================================
 
