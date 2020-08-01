@@ -430,7 +430,7 @@ h1.contact-title {
 ======================== */
 
 /*styling for the header image*/
-.col-12 blog-post {
+.col-12.blog-post {
     text-align: center;
     padding: 20px;
 }
