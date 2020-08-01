@@ -348,6 +348,20 @@
 
 =====================================*/
 
+
+
+    // Widget Area: Contact Us Now Icons
+    register_sidebar(array(
+        'name'          => ('Contact Page Icons'),
+        'id'            => 'contact-icons',
+        'description'   => 'Contact Page Icon Widget',
+        'before_widget' => '<div class="widget-contact-icons">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="contact-form-widget-icons">',
+        'after_title'   => '</h3>'
+    ));
+
+
     // Widget Area: Contact Form Widget
     register_sidebar(array(
         'name'          => ('Contact Form'),

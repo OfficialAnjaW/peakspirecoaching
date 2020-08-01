@@ -27,6 +27,14 @@ Template Post Type: page
     </section>
 
    <!-- begin widget for contact us form -->
+   <section>
+     <div class="row d-flex justify-content-between">
+       <div class="col-lg-12">
+         <?php dynamic_sidebar('contact-icons'); ?>
+       </div>
+     </div>
+   </section>
+
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-6">
