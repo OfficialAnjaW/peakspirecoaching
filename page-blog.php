@@ -10,7 +10,7 @@ Template Post Type: page
   <!-- Widget Area: Homepage Hero Image -->
   <div class="row">
     <div class="col-md-12">
-      <?php dynamic_sidebar('homepage-hero-image'); ?>
+      <?php dynamic_sidebar('blog-home-feature-image'); ?>
     </div>
   </div>
 
