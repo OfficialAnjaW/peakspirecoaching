@@ -1,3 +1,12 @@
+<?php
+
+/*
+Template Name: Blog Home
+Template Post Type: page
+*/
+
+?>
+
 <?php get_header(); ?>
 
   <!-- Widget Area: Blog Post Feature Image -->
