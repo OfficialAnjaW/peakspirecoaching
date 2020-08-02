@@ -19,10 +19,10 @@
               <h4><?php the_title(); ?></h4>
 
               <div class="post-featured-image">
-                <?php the_post_thumbnail('large'); ?>
+                <?php the_post_thumbnail('medium'); ?>
               </div>
 
-              <p class="category-label">Category: <?php the_category(); ?></p>
+              <p class="category-label"><?php echo "Category: " . the_category(); ?></p>
 
               <?php
                 $archive_year = get_the_time('Y');
