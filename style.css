@@ -457,10 +457,14 @@ main.blog-overview {
   margin-bottom: 15%;
 }
 
-.post-info-author,
 .post-info-link,
 .post-info {
   color: #12244f;
+}
+
+.post-info-author a:hover {
+  color: #6da69b;
+  text-decoration: none;
 }
 
 /* ======================
