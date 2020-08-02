@@ -18,7 +18,7 @@
             <div class="col-md-4">
 
               <div class="post-featured-image">
-                <?php the_post_thumbnail('large'); ?>
+                <?php the_post_thumbnail('medium'); ?>
               </div>
 
               <h5><?php the_title(); ?></h5>
