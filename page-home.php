@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Home Old
+Template Name: Home
 Template Post Type: page
 */
 
