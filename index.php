@@ -1,43 +1,113 @@
+<?php
+
+/*
+Template Name: Home
+Template Post Type: page
+*/
+
+?>
+
 <?php get_header(); ?>
 
-  <!-- Widget Area: Blog Post Feature Image -->
+  <!-- Widget Area: Homepage Hero Image -->
   <div class="row">
     <div class="col-md-12">
-      <?php dynamic_sidebar('blog-home-feature-image'); ?>
+      <?php dynamic_sidebar('homepage-hero-image'); ?>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <?php  if(have_posts()){
-        while(have_posts()){
-          the_post(); ?>
-          <div class="col-md-3">
-            <h3><?php the_title(); ?></h3>
+  <main>
 
-            <div class="post-featured-image">
-              <?php the_post_thumbnail('medium'); ?>
-            </div>
+    <!-- Homepage Intro Section -->
+    <div class="container-fluid intro-section">
+      <div class="container">
 
-            <p class="category-label">Category: <?php the_category(); ?></p>
-
-            <?php
-              $archive_year = get_the_time('Y');
-              $archive_month = get_the_time('m');
-              $archive_day = get_the_time('d');
-            ?>
-
-            <p class="post-info">Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"> <?php echo get_the_date(); ?></a></p>
-
-            <p><?php echo "Written by: " . get_the_author(); ?></p>
-
-            <?php the_excerpt(); ?>
-
-            <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More >></a>
+        <!-- Widget Area: Homepage Intro Title -->
+        <div class="row">
+          <div class="col-md-12">
+            <?php dynamic_sidebar('homepage-intro-title'); ?>
           </div>
-    <?php } //ends while loop
-    } //ends if statement
-      ?>
+        </div>
+
+        <!-- Widget Area: Homepage Intro Copy -->
+        <div class="row">
+          <div class="col-md-10">
+            <?php dynamic_sidebar('homepage-intro-copy'); ?>
+          </div>
+        </div>
+
+        <!-- Widget Area: Homepage Intro Stats -->
+        <div class="row">
+          <div class="col-md-10">
+            <?php dynamic_sidebar('homepage-intro-statistics'); ?>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Homepage Services Section -->
+    <div class="container-fluid services-section">
+
+      <div class="row">
+        <!-- Widget Area: Homepage Services Title -->
+        <div class="col-lg-12">
+          <?php dynamic_sidebar('homepage-services-title'); ?>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-around">
+
+        <!-- Widget Area: Homepage Services One -->
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('homepage-services-one'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Services Two -->
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('homepage-services-two'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Services Three -->
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('homepage-services-three'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Services Four -->
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('homepage-services-four'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Services Five -->
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('homepage-services-five'); ?>
+        </div>
+
+        <!-- Widget Area: Homepage Services Six -->
+        <div class="col-lg-2">
+          <?php dynamic_sidebar('homepage-services-six'); ?>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Widget Area: Homepage Manifesto Section-->
+    <div class="container manifesto-section">
+      <div class="row">
+        <div class="col-md-10">
+          <?php dynamic_sidebar('homepage-manifesto'); ?>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Widget Area: Homepage Banner Image -->
+  <div class="manifesto-banner-image">
+    <div class="row">
+      <div class="col-md-12">
+        <?php dynamic_sidebar('homepage-banner-image'); ?>
+      </div>
     </div>
   </div>
 
