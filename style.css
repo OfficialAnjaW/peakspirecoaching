@@ -439,18 +439,21 @@ h1.contact-title {
 
 ======================== */
 
+main.blog-overview {
+    padding: 10% 0;
+}
+
 .post-featured-image img {
-    max-width: 500px;
+    max-width: 300px;
     object-fit: contain;
 }
 
-p .category-label,
-.post-categories {
-  display: inline-block;
+.blog-overview h5 {
+  padding-top: 5%;
 }
 
-.post-categories {
-  list-style-type: none;
+.blog-overview-buttons {
+  margin-bottom: 5%;
 }
 
 /* ======================

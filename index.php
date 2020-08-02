@@ -15,7 +15,7 @@
         <?php  if(have_posts()){
           while(have_posts()){
             the_post(); ?>
-            <div class="col-md-6">
+            <div class="col-md-4">
 
               <div class="post-featured-image">
                 <?php the_post_thumbnail('medium'); ?>
@@ -35,7 +35,7 @@
 
               <?php the_excerpt(); ?>
 
-              <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More >></a>
+              <a class="btn btn-primary btn-sm blog-overview-buttons" href="<?php the_permalink(); ?>">Read More >></a>
             </div>
       <?php } //ends while loop
       } //ends if statement
