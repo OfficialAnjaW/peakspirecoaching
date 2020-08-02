@@ -421,11 +421,9 @@ h1.contact-title {
   padding-bottom: 40px;
 }
 
-
-
 /* ======================
 
-  blog-post.php styling
+  Blog Post
 
 ======================== */
 
@@ -433,6 +431,26 @@ h1.contact-title {
 .col-12.blog-post {
     text-align: center;
     padding: 20px;
+}
+
+/* ======================
+
+  Blog Overview
+
+======================== */
+
+.post-featured-image img {
+    max-width: 500px;
+    object-fit: contain;
+}
+
+p .category-label,
+.post-categories {
+  display: inline-block;
+}
+
+.post-categories {
+  list-style-type: none;
 }
 
 /* ======================

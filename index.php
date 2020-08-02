@@ -16,10 +16,10 @@
           while(have_posts()){
             the_post(); ?>
             <div class="col-md-6">
-              <h3><?php the_title(); ?></h3>
+              <h4><?php the_title(); ?></h4>
 
               <div class="post-featured-image">
-                <?php the_post_thumbnail('medium'); ?>
+                <?php the_post_thumbnail('large'); ?>
               </div>
 
               <p class="category-label">Category: <?php the_category(); ?></p>
