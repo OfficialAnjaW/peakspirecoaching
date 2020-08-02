@@ -18,7 +18,7 @@
             <div class="col-md-4">
 
               <div class="post-featured-image">
-                <?php the_post_thumbnail('medium'); ?>
+                <?php the_post_thumbnail('large'); ?>
               </div>
 
               <h5><?php the_title(); ?></h5>
@@ -29,9 +29,9 @@
                 $archive_day = get_the_time('d');
               ?>
 
-              <p class="post-info">Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"> <?php echo get_the_date(); ?></a></p>
+              <p class="post-info">Published: <a class="post-info-link" href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"> <?php echo get_the_date(); ?></a></p>
 
-              <p><?php echo "Written by: " . get_the_author(); ?></p>
+              <p class="post-author"><?php echo "Written by: " . get_the_author(); ?></p>
 
               <?php the_excerpt(); ?>
 

@@ -445,15 +445,22 @@ main.blog-overview {
 
 .post-featured-image img {
     max-width: 350px;
+    height: 200px;
     object-fit: contain;
 }
 
 .blog-overview h5 {
-  padding-top: 5%;
+  padding: 2% 0;
 }
 
 .blog-overview-buttons {
   margin-bottom: 15%;
+}
+
+.post-info-author,
+.post-info-link,
+.post-info {
+  color: #12244f;
 }
 
 /* ======================
