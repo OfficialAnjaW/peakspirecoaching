@@ -12,7 +12,7 @@
       <?php  if(have_posts()){
         while(have_posts()){
           the_post(); ?>
-          <div class="col-md-6">
+          <div class="col-md-3">
             <h3><?php the_title(); ?></h3>
 
             <div class="post-featured-image">
