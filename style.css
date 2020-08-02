@@ -462,7 +462,7 @@ main.blog-overview {
   color: #12244f;
 }
 
-.post-info-author a:hover {
+.post-info-author:hover {
   color: #6da69b;
   text-decoration: none;
 }
