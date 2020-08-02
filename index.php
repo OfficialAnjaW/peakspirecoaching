@@ -8,7 +8,7 @@
   </div>
 
   <!-- Blog Posts -->
-  <main>
+  <main class="blog-overview">
 
     <div class="container">
       <div class="row">
@@ -22,7 +22,7 @@
                 <?php the_post_thumbnail('medium'); ?>
               </div>
 
-              <p class="category-label"><?php echo "Category: " . the_category(); ?></p>
+              <p class="category-label">Category: <?php the_category(); ?></p>
 
               <?php
                 $archive_year = get_the_time('Y');
