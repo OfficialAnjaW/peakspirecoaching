@@ -440,11 +440,11 @@ h1.contact-title {
 ======================== */
 
 main.blog-overview {
-    padding: 10% 0;
+    padding: 5% 0;
 }
 
 .post-featured-image img {
-    max-width: 300px;
+    max-width: 350px;
     object-fit: contain;
 }
 
@@ -453,7 +453,7 @@ main.blog-overview {
 }
 
 .blog-overview-buttons {
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 /* ======================
@@ -524,6 +524,10 @@ main.blog-overview {
   .container-newsletter {
     padding: 15% 0 10% 0;
     margin-top: 7%;
+   }
+
+   main.blog-overview {
+       padding: 10% 0;
    }
 
 }
