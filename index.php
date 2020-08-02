@@ -16,13 +16,12 @@
           while(have_posts()){
             the_post(); ?>
             <div class="col-md-6">
-              <h4><?php the_title(); ?></h4>
 
               <div class="post-featured-image">
                 <?php the_post_thumbnail('medium'); ?>
               </div>
 
-              <p class="category-label">Category: <?php the_category(); ?></p>
+              <h5><?php the_title(); ?></h5>
 
               <?php
                 $archive_year = get_the_time('Y');
