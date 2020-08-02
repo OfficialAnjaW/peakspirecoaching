@@ -1,10 +1,3 @@
-<?php
-/*
-Template name: Blog Posts
-Template post type: post
-*/
-?>
-
 <?php get_header(); ?>
 
 
