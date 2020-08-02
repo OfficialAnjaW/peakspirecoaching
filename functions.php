@@ -603,7 +603,21 @@
       'after_title'   => '</h3>'
     ));
 
+/*===================================
 
+  Widget Areas Blog Home
+
+=====================================*/
+
+register_sidebar(array(
+  'name'          => ('Blog Home Feature Image'),
+  'id'            => 'blog-home-feature-image',
+  'description'   => 'Widget for SBlog Home Feature Image',
+  'before_widget' => '<div class="widget-blog-home-feature-image">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h1 class="blog-home-feature-image-widget-title">',
+  'after_title'   => '</h1>'
+));
 
 /*===================================
 
