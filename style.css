@@ -259,6 +259,16 @@ footer {
   padding: 7% 0;
 }
 
+div#sp-ea-430 {
+  padding-top: 1%;
+}
+
+h3.ea-header {
+  font-family: acumin-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Founder Image */
 
 .widget-founder-image {
