@@ -298,6 +298,17 @@
         'after_title'   => '</h1>'
     ));
 
+    // Widget Area: FAQ Section
+    register_sidebar(array(
+        'name'          => ('FAQ Section'),
+        'id'            => 'faq-section',
+        'description'   => 'FAQ Section',
+        'before_widget' => '<div class="widget-faq-section">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h1 class="faq-section-widget-title">',
+        'after_title'   => '</h1>'
+    ));
+
     // Widget Area: Founder Image
     register_sidebar(array(
         'name'          => ('Founder Image'),
