@@ -29,22 +29,14 @@ Template Post Type: page
       </div>
     </div>
 
-    <div class="container container-company-introduction">
 
-      <!-- Widget Area: Company Introduction -->
+    <!-- Widget Area: Company Introduction -->
+    <div class="container container-company-introduction">
       <div class="row">
         <div class="col-md-10">
           <?php dynamic_sidebar('company-introduction'); ?>
         </div>
       </div>
-
-      <!-- Widget Area: FAQ Section -->
-      <div class="row">
-        <div class="col-md-10">
-          <?php dynamic_sidebar('faq-section'); ?>
-        </div>
-      </div>
-
     </div>
 
     <!-- Widget Area: Founder Image -->
