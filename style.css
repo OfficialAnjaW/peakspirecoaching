@@ -291,6 +291,12 @@ h3.ea-header {
   padding-top: 1%;
 }
 
+/* Credentials */
+
+ul.slick-dots {
+  display: none;
+}
+
 /* Newsletter Form Subscription */
 
 .container-newsletter {
