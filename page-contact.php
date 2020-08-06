@@ -35,7 +35,7 @@ Template Post Type: page
      </div>
    </section>
 
-    <section>
+    <section class="contactus-padding">
       <div class="row d-flex justify-content-between">
         <div class="col-lg-6">
           <?php dynamic_sidebar('contact-us-form'); ?>
