@@ -495,6 +495,10 @@ main.blog-overview {
   text-decoration: none;
 }
 
+.col-lg-4.post-overview-tiles {
+    max-width: 400px;
+}
+
 /* ======================
 
   404
@@ -571,6 +575,11 @@ main.blog-overview {
 
    .credentials-section {
     padding: 1% 0 7% 0;
+  }
+
+  .col-lg-4.post-overview-tiles {
+    max-width: 350px;
+    margin: 0 auto;
   }
 
 }
