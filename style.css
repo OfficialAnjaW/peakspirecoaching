@@ -552,7 +552,11 @@ main.blog-overview {
    }
 
    main.blog-overview {
-       padding: 10% 0;
+     padding: 10% 0;
    }
+
+   .credentials-section {
+    padding: 1% 0 7% 0;
+  }
 
 }
