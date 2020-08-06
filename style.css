@@ -109,6 +109,10 @@ nav {
   display: inline;
 }
 
+li.current-menu-item a {
+  color: #6da69b;
+}
+
 /* Welcome Bar */
 
 .mysticky-welcomebar-btn,
