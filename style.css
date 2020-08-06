@@ -431,6 +431,10 @@ h1.contact-title {
   padding-bottom: 40px;
 }
 
+span.zoom-social_icons-list__label {
+    color: #6da69b;
+}
+
 /* ======================
 
   Blog Post
