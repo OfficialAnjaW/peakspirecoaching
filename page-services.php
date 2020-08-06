@@ -85,7 +85,7 @@ Template Post Type: page
         </div>
     </div>
     </section>
-<!-- Call to Action section starts here------->
+<!-- Call to Action section starts here-->
     <section>
       <div class="row d-flex justify-content-between">
         <div class="col-lg-12">
@@ -94,7 +94,7 @@ Template Post Type: page
       </div>
     </section>
 
-<!---Newsletter sign up for services page starts here ------>
+<!-- Newsletter sign up for services page starts here -->
     <section>
       <div class="containter-fluid container-newsletter-services">
         <div class="col-lg-8">
