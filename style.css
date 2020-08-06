@@ -405,7 +405,11 @@ h1.entry-title-testimonial {
 }
 
 .widget-testimonials-logo-title {
-  padding: 20px 10px;
+  padding: 50px 10px 10px 10px;
+}
+
+div#sp-testimonial-free-wrapper-189 {
+    padding-bottom: 50px;
 }
 
 .widget_text.widget-testimonials-contact-cta {
@@ -422,6 +426,10 @@ h1.contact-title {
   padding: 50px 0px 10px;
 }
 
+.contactus-padding {
+  padding-bottom: 75px;
+}
+
 .contact-map-widget-title {
   padding:30px 0px;
 }
@@ -432,7 +440,7 @@ h1.contact-title {
 }
 
 span.zoom-social_icons-list__label {
-    color: #6da69b;
+    color: #12244f;
 }
 
 /* ======================
