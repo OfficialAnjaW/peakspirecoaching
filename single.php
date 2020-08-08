@@ -9,7 +9,7 @@
         while(have_posts()){
           the_post(); ?>
 
-        <div class="col-lg-9 blog-post">
+        <div class="col-12 blog-post">
           <?php the_post_thumbnail(); ?>
         </div>
       <?php  } //this ends while loop

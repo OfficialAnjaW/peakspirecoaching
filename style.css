@@ -460,7 +460,7 @@ span.zoom-social_icons-list__label {
 ======================== */
 
 /*styling for the header image*/
-.col-lg-9 blog-post {
+.col-12.blog-post {
     text-align: center;
     padding: 20px;
     width: 100%;
