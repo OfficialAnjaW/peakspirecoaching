@@ -18,7 +18,7 @@
   </section>
 </main>
 
-  <section class="container">
+  <section class="container-fluid">
 <!-- ======================= Blog Content ==================-->
     <div class="row justify-content-center posts">
       <div class="col-lg-9 col-md-8 col-sm-12">
