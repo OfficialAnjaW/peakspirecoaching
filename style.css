@@ -482,7 +482,7 @@ main.blog-overview {
 
 .post-featured-image img {
     max-width: 350px;
-    height: 200px;
+    height: 100px;
     object-fit: contain;
 }
 
