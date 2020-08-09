@@ -467,6 +467,9 @@ span.zoom-social_icons-list__label {
     object-fit: cover;
 }
 
+.blog-content {
+  padding-bottom: 5%;
+}
 /* ======================
 
   Blog Overview
